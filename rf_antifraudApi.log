@@ -1,0 +1,862 @@
+2017-11-30 15:01:48,064 - rf_antifraud.py:32 -- receive a  rf_antifraudApi  request: <Request 'http://127.0.0.1:5061/model_api/rf_antifraud' [POST]>
+2017-11-30 15:02:30,337 - rf_antifraud.py:32 -- receive a  rf_antifraudApi  request: <Request 'http://127.0.0.1:5061/model_api/rf_antifraud' [POST]>
+2017-11-30 15:13:39,718 - rf_antifraud.py:32 -- receive a  rf_antifraudApi  request: <Request 'http://127.0.0.1:5061/model_api/rf_antifraud' [POST]>
+2017-11-30 15:14:16,630 - rf_antifraud.py:32 -- receive a  rf_antifraudApi  request: <Request 'http://127.0.0.1:5061/model_api/rf_antifraud' [POST]>
+2017-11-30 15:14:29,719 - rf_antifraud.py:32 -- receive a  rf_antifraudApi  request: <Request 'http://127.0.0.1:5061/model_api/rf_antifraud' [POST]>
+2017-11-30 15:15:53,199 - rf_antifraud.py:32 -- receive a  rf_antifraudApi  request: <Request 'http://127.0.0.1:5061/model_api/rf_antifraud' [POST]>
+2017-11-30 15:17:20,957 - rf_antifraud.py:32 -- receive a  rf_antifraudApi  request: <Request 'http://127.0.0.1:5061/model_api/rf_antifraud' [POST]>
+2017-11-30 15:24:59,287 - rf_antifraud.py:32 -- receive a  rf_antifraudApi  request: <Request 'http://127.0.0.1:5061/model_api/rf_antifraud' [POST]>
+2017-11-30 15:29:21,282 - rf_antifraud.py:32 -- receive a  rf_antifraudApi  request: <Request 'http://127.0.0.1:5061/model_api/rf_antifraud' [POST]>
+2017-11-30 15:29:21,283 - rf_antifraud.py:58 -- <Request 'http://127.0.0.1:5061/model_api/rf_antifraud' [POST]>Traceback (most recent call last):
+  File "/Users/wanghongkui/PycharmProjects/Model_api/rf_antifraud.py", line 44, in get_result
+    get_data.append(input_data[i])
+TypeError: string indices must be integers
+
+2017-11-30 15:30:34,195 - rf_antifraud.py:32 -- receive a  rf_antifraudApi  request: <Request 'http://127.0.0.1:5061/model_api/rf_antifraud' [POST]>
+2017-11-30 15:30:34,620 - rf_antifraud.py:59 -- <Request 'http://127.0.0.1:5061/model_api/rf_antifraud' [POST]>Traceback (most recent call last):
+  File "/Users/wanghongkui/PycharmProjects/Model_api/rf_antifraud.py", line 50, in get_result
+    result = clf.classify(get_data)
+AttributeError: 'RandomForestClassifier' object has no attribute 'classify'
+
+2017-11-30 15:30:57,141 - rf_antifraud.py:32 -- receive a  rf_antifraudApi  request: <Request 'http://127.0.0.1:5061/model_api/rf_antifraud' [POST]>
+2017-11-30 15:30:57,359 - rf_antifraud.py:59 -- <Request 'http://127.0.0.1:5061/model_api/rf_antifraud' [POST]>Traceback (most recent call last):
+  File "/Users/wanghongkui/PycharmProjects/Model_api/rf_antifraud.py", line 50, in get_result
+    result = clf.classify(get_data)
+AttributeError: 'RandomForestClassifier' object has no attribute 'classify'
+
+2017-11-30 15:31:54,980 - rf_antifraud.py:32 -- receive a  rf_antifraudApi  request: <Request 'http://127.0.0.1:5061/model_api/rf_antifraud' [POST]>
+2017-11-30 15:32:55,699 - rf_antifraud.py:32 -- receive a  rf_antifraudApi  request: <Request 'http://127.0.0.1:5061/model_api/rf_antifraud' [POST]>
+2017-11-30 15:33:29,229 - rf_antifraud.py:32 -- receive a  rf_antifraudApi  request: <Request 'http://127.0.0.1:5061/model_api/rf_antifraud' [POST]>
+2017-11-30 15:33:29,230 - rf_antifraud.py:59 -- <Request 'http://127.0.0.1:5061/model_api/rf_antifraud' [POST]>Traceback (most recent call last):
+  File "/Users/wanghongkui/PycharmProjects/Model_api/rf_antifraud.py", line 37, in get_result
+    input_data = json(request.form['input_data'])
+TypeError: 'module' object is not callable
+
+2017-11-30 15:33:58,711 - rf_antifraud.py:32 -- receive a  rf_antifraudApi  request: <Request 'http://127.0.0.1:5061/model_api/rf_antifraud' [POST]>
+2017-11-30 15:34:13,553 - rf_antifraud.py:32 -- receive a  rf_antifraudApi  request: <Request 'http://127.0.0.1:5061/model_api/rf_antifraud' [POST]>
+2017-11-30 15:34:47,889 - rf_antifraud.py:32 -- receive a  rf_antifraudApi  request: <Request 'http://127.0.0.1:5061/model_api/rf_antifraud' [POST]>
+2017-11-30 15:35:11,720 - rf_antifraud.py:32 -- receive a  rf_antifraudApi  request: <Request 'http://127.0.0.1:5061/model_api/rf_antifraud' [POST]>
+2017-11-30 15:36:08,304 - rf_antifraud.py:32 -- receive a  rf_antifraudApi  request: <Request 'http://127.0.0.1:5061/model_api/rf_antifraud' [POST]>
+2017-11-30 15:36:12,209 - rf_antifraud.py:32 -- receive a  rf_antifraudApi  request: <Request 'http://127.0.0.1:5061/model_api/rf_antifraud' [POST]>
+2017-11-30 15:41:40,644 - rf_antifraud.py:32 -- receive a  rf_antifraudApi  request: <Request 'http://127.0.0.1:5061/model_api/rf_antifraud' [POST]>
+2017-11-30 15:41:40,646 - rf_antifraud.py:58 -- <Request 'http://127.0.0.1:5061/model_api/rf_antifraud' [POST]>Traceback (most recent call last):
+  File "/Users/wanghongkui/PycharmProjects/Model_api/rf_antifraud.py", line 44, in get_result
+    get_data.append(input_data[x_columns])
+TypeError: string indices must be integers, not list
+
+2017-11-30 15:42:17,189 - rf_antifraud.py:32 -- receive a  rf_antifraudApi  request: <Request 'http://127.0.0.1:5061/model_api/rf_antifraud' [POST]>
+2017-11-30 15:42:17,190 - rf_antifraud.py:59 -- <Request 'http://127.0.0.1:5061/model_api/rf_antifraud' [POST]>Traceback (most recent call last):
+  File "/Users/wanghongkui/PycharmProjects/Model_api/rf_antifraud.py", line 44, in get_result
+    print input_data[i]
+TypeError: string indices must be integers, not str
+
+2017-11-30 15:43:14,383 - rf_antifraud.py:32 -- receive a  rf_antifraudApi  request: <Request 'http://127.0.0.1:5061/model_api/rf_antifraud' [POST]>
+2017-11-30 15:43:14,385 - rf_antifraud.py:59 -- <Request 'http://127.0.0.1:5061/model_api/rf_antifraud' [POST]>Traceback (most recent call last):
+  File "/Users/wanghongkui/PycharmProjects/Model_api/rf_antifraud.py", line 44, in get_result
+    print input_data[i]
+TypeError: string indices must be integers, not str
+
+2017-11-30 15:53:47,056 - rf_antifraud.py:32 -- receive a  rf_antifraudApi  request: <Request 'http://127.0.0.1:5061/model_api/rf_antifraud' [POST]>
+2017-11-30 15:53:47,058 - rf_antifraud.py:60 -- <Request 'http://127.0.0.1:5061/model_api/rf_antifraud' [POST]>Traceback (most recent call last):
+  File "/Users/wanghongkui/PycharmProjects/Model_api/rf_antifraud.py", line 44, in get_result
+    if i in input_data.keys():
+AttributeError: 'str' object has no attribute 'keys'
+
+2017-11-30 15:55:42,651 - rf_antifraud.py:32 -- receive a  rf_antifraudApi  request: <Request 'http://127.0.0.1:5061/model_api/rf_antifraud' [POST]>
+2017-11-30 15:55:42,655 - rf_antifraud.py:57 -- <Request 'http://127.0.0.1:5061/model_api/rf_antifraud' [POST]>Traceback (most recent call last):
+  File "/Users/wanghongkui/PycharmProjects/Model_api/rf_antifraud.py", line 36, in get_result
+    input_data = json.dumps(request.form['input_data'])
+  File "/Library/Python/2.7/site-packages/werkzeug/datastructures.py", line 428, in __getitem__
+    raise exceptions.BadRequestKeyError(key)
+BadRequestKeyError: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+
+2017-11-30 15:56:06,640 - rf_antifraud.py:32 -- receive a  rf_antifraudApi  request: <Request 'http://127.0.0.1:5061/model_api/rf_antifraud' [POST]>
+2017-11-30 15:56:06,641 - rf_antifraud.py:57 -- <Request 'http://127.0.0.1:5061/model_api/rf_antifraud' [POST]>Traceback (most recent call last):
+  File "/Users/wanghongkui/PycharmProjects/Model_api/rf_antifraud.py", line 41, in get_result
+    if i in input_data.keys():
+AttributeError: 'str' object has no attribute 'keys'
+
+2017-11-30 15:56:41,155 - rf_antifraud.py:32 -- receive a  rf_antifraudApi  request: <Request 'http://127.0.0.1:5061/model_api/rf_antifraud' [POST]>
+2017-11-30 15:56:41,156 - rf_antifraud.py:57 -- <Request 'http://127.0.0.1:5061/model_api/rf_antifraud' [POST]>Traceback (most recent call last):
+  File "/Users/wanghongkui/PycharmProjects/Model_api/rf_antifraud.py", line 36, in get_result
+    input_data = json.dumps(request.form['input_data'])
+  File "/Library/Python/2.7/site-packages/werkzeug/datastructures.py", line 428, in __getitem__
+    raise exceptions.BadRequestKeyError(key)
+BadRequestKeyError: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+
+2017-11-30 15:57:22,127 - rf_antifraud.py:32 -- receive a  rf_antifraudApi  request: <Request 'http://127.0.0.1:5061/model_api/rf_antifraud' [POST]>
+2017-11-30 15:57:22,130 - rf_antifraud.py:57 -- <Request 'http://127.0.0.1:5061/model_api/rf_antifraud' [POST]>Traceback (most recent call last):
+  File "/Users/wanghongkui/PycharmProjects/Model_api/rf_antifraud.py", line 36, in get_result
+    input_data = request.form['input_data']
+  File "/Library/Python/2.7/site-packages/werkzeug/datastructures.py", line 428, in __getitem__
+    raise exceptions.BadRequestKeyError(key)
+BadRequestKeyError: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+
+2017-11-30 15:58:24,397 - rf_antifraud.py:32 -- receive a  rf_antifraudApi  request: <Request 'http://127.0.0.1:5061/model_api/rf_antifraud' [POST]>
+2017-11-30 15:58:24,397 - rf_antifraud.py:57 -- <Request 'http://127.0.0.1:5061/model_api/rf_antifraud' [POST]>Traceback (most recent call last):
+  File "/Users/wanghongkui/PycharmProjects/Model_api/rf_antifraud.py", line 41, in get_result
+    if i in input_data.keys():
+AttributeError: 'unicode' object has no attribute 'keys'
+
+2017-11-30 15:58:58,965 - rf_antifraud.py:32 -- receive a  rf_antifraudApi  request: <Request 'http://127.0.0.1:5061/model_api/rf_antifraud' [POST]>
+2017-11-30 15:58:58,966 - rf_antifraud.py:57 -- <Request 'http://127.0.0.1:5061/model_api/rf_antifraud' [POST]>Traceback (most recent call last):
+  File "/Users/wanghongkui/PycharmProjects/Model_api/rf_antifraud.py", line 41, in get_result
+    if i in input_data.keys():
+AttributeError: 'unicode' object has no attribute 'keys'
+
+2017-11-30 16:01:10,237 - rf_antifraud.py:32 -- receive a  rf_antifraudApi  request: <Request 'http://127.0.0.1:5061/model_api/rf_antifraud' [POST]>
+2017-11-30 16:01:10,239 - rf_antifraud.py:57 -- <Request 'http://127.0.0.1:5061/model_api/rf_antifraud' [POST]>Traceback (most recent call last):
+  File "/Users/wanghongkui/PycharmProjects/Model_api/rf_antifraud.py", line 41, in get_result
+    if i in input_data.keys():
+AttributeError: 'unicode' object has no attribute 'keys'
+
+2017-11-30 16:02:02,185 - rf_antifraud.py:32 -- receive a  rf_antifraudApi  request: <Request 'http://127.0.0.1:5061/model_api/rf_antifraud' [POST]>
+2017-11-30 16:02:02,186 - rf_antifraud.py:57 -- <Request 'http://127.0.0.1:5061/model_api/rf_antifraud' [POST]>Traceback (most recent call last):
+  File "/Users/wanghongkui/PycharmProjects/Model_api/rf_antifraud.py", line 41, in get_result
+    if i in input_data.keys():
+AttributeError: 'unicode' object has no attribute 'keys'
+
+2017-11-30 16:03:36,747 - rf_antifraud.py:32 -- receive a  rf_antifraudApi  request: <Request 'http://127.0.0.1:5061/model_api/rf_antifraud' [POST]>
+2017-11-30 16:03:36,747 - rf_antifraud.py:57 -- <Request 'http://127.0.0.1:5061/model_api/rf_antifraud' [POST]>Traceback (most recent call last):
+  File "/Users/wanghongkui/PycharmProjects/Model_api/rf_antifraud.py", line 41, in get_result
+    if i in input_data.keys():
+AttributeError: 'unicode' object has no attribute 'keys'
+
+2017-11-30 16:05:29,466 - rf_antifraud.py:32 -- receive a  rf_antifraudApi  request: <Request 'http://127.0.0.1:5061/model_api/rf_antifraud' [POST]>
+2017-11-30 16:05:29,467 - rf_antifraud.py:57 -- <Request 'http://127.0.0.1:5061/model_api/rf_antifraud' [POST]>Traceback (most recent call last):
+  File "/Users/wanghongkui/PycharmProjects/Model_api/rf_antifraud.py", line 41, in get_result
+    if i in input_data.keys():
+AttributeError: 'unicode' object has no attribute 'keys'
+
+2017-11-30 16:10:53,953 - rf_antifraud.py:32 -- receive a  rf_antifraudApi  request: <Request 'http://127.0.0.1:5061/model_api/rf_antifraud' [POST]>
+2017-11-30 16:10:53,955 - rf_antifraud.py:59 -- <Request 'http://127.0.0.1:5061/model_api/rf_antifraud' [POST]>Traceback (most recent call last):
+  File "/Users/wanghongkui/PycharmProjects/Model_api/rf_antifraud.py", line 42, in get_result
+    for i in input_data.keys():
+AttributeError: 'unicode' object has no attribute 'keys'
+
+2017-11-30 16:11:51,631 - rf_antifraud.py:32 -- receive a  rf_antifraudApi  request: <Request 'http://127.0.0.1:5061/model_api/rf_antifraud' [POST]>
+2017-11-30 16:11:51,632 - rf_antifraud.py:59 -- <Request 'http://127.0.0.1:5061/model_api/rf_antifraud' [POST]>Traceback (most recent call last):
+  File "/Users/wanghongkui/PycharmProjects/Model_api/rf_antifraud.py", line 42, in get_result
+    for i in  input_data.keys():
+AttributeError: 'unicode' object has no attribute 'keys'
+
+2017-11-30 16:12:26,064 - rf_antifraud.py:32 -- receive a  rf_antifraudApi  request: <Request 'http://127.0.0.1:5061/model_api/rf_antifraud' [POST]>
+2017-11-30 16:12:26,065 - rf_antifraud.py:59 -- <Request 'http://127.0.0.1:5061/model_api/rf_antifraud' [POST]>Traceback (most recent call last):
+  File "/Users/wanghongkui/PycharmProjects/Model_api/rf_antifraud.py", line 39, in get_result
+    print input_data.keys()
+AttributeError: 'unicode' object has no attribute 'keys'
+
+2017-11-30 16:13:16,016 - rf_antifraud.py:32 -- receive a  rf_antifraudApi  request: <Request 'http://127.0.0.1:5061/model_api/rf_antifraud' [POST]>
+2017-11-30 16:13:16,017 - rf_antifraud.py:59 -- <Request 'http://127.0.0.1:5061/model_api/rf_antifraud' [POST]>Traceback (most recent call last):
+  File "/Users/wanghongkui/PycharmProjects/Model_api/rf_antifraud.py", line 39, in get_result
+    print json.dumps(input_data).keys()
+AttributeError: 'str' object has no attribute 'keys'
+
+2017-11-30 16:15:00,229 - rf_antifraud.py:32 -- receive a  rf_antifraudApi  request: <Request 'http://127.0.0.1:5061/model_api/rf_antifraud' [POST]>
+2017-11-30 16:15:00,231 - rf_antifraud.py:59 -- <Request 'http://127.0.0.1:5061/model_api/rf_antifraud' [POST]>Traceback (most recent call last):
+  File "/Users/wanghongkui/PycharmProjects/Model_api/rf_antifraud.py", line 42, in get_result
+    for i in input_data.keys():
+AttributeError: 'unicode' object has no attribute 'keys'
+
+2017-11-30 16:16:25,473 - rf_antifraud.py:32 -- receive a  rf_antifraudApi  request: <Request 'http://127.0.0.1:5061/model_api/rf_antifraud' [POST]>
+2017-11-30 16:16:25,474 - rf_antifraud.py:59 -- <Request 'http://127.0.0.1:5061/model_api/rf_antifraud' [POST]>Traceback (most recent call last):
+  File "/Users/wanghongkui/PycharmProjects/Model_api/rf_antifraud.py", line 42, in get_result
+    for i in input_data.keys():
+AttributeError: 'unicode' object has no attribute 'keys'
+
+2017-11-30 16:19:07,349 - rf_antifraud.py:32 -- receive a  rf_antifraudApi  request: <Request 'http://127.0.0.1:5061/model_api/rf_antifraud' [POST]>
+2017-11-30 16:19:07,352 - rf_antifraud.py:59 -- <Request 'http://127.0.0.1:5061/model_api/rf_antifraud' [POST]>Traceback (most recent call last):
+  File "/Users/wanghongkui/PycharmProjects/Model_api/rf_antifraud.py", line 36, in get_result
+    input_data = json.loads(request.form['input_data'])
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/json/__init__.py", line 338, in loads
+    return _default_decoder.decode(s)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/json/decoder.py", line 366, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/json/decoder.py", line 382, in raw_decode
+    obj, end = self.scan_once(s, idx)
+ValueError: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+
+2017-11-30 16:19:16,198 - rf_antifraud.py:32 -- receive a  rf_antifraudApi  request: <Request 'http://127.0.0.1:5061/model_api/rf_antifraud' [POST]>
+2017-11-30 16:19:16,199 - rf_antifraud.py:59 -- <Request 'http://127.0.0.1:5061/model_api/rf_antifraud' [POST]>Traceback (most recent call last):
+  File "/Users/wanghongkui/PycharmProjects/Model_api/rf_antifraud.py", line 36, in get_result
+    input_data = json.loads(request.form['input_data'])
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/json/__init__.py", line 338, in loads
+    return _default_decoder.decode(s)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/json/decoder.py", line 366, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/json/decoder.py", line 382, in raw_decode
+    obj, end = self.scan_once(s, idx)
+ValueError: Expecting ',' delimiter: line 1 column 17 (char 16)
+
+2017-11-30 16:19:18,894 - rf_antifraud.py:32 -- receive a  rf_antifraudApi  request: <Request 'http://127.0.0.1:5061/model_api/rf_antifraud' [POST]>
+2017-11-30 16:19:18,896 - rf_antifraud.py:59 -- <Request 'http://127.0.0.1:5061/model_api/rf_antifraud' [POST]>Traceback (most recent call last):
+  File "/Users/wanghongkui/PycharmProjects/Model_api/rf_antifraud.py", line 36, in get_result
+    input_data = json.loads(request.form['input_data'])
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/json/__init__.py", line 338, in loads
+    return _default_decoder.decode(s)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/json/decoder.py", line 366, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/json/decoder.py", line 382, in raw_decode
+    obj, end = self.scan_once(s, idx)
+ValueError: Expecting ',' delimiter: line 1 column 17 (char 16)
+
+2017-11-30 16:21:02,859 - rf_antifraud.py:32 -- receive a  rf_antifraudApi  request: <Request 'http://127.0.0.1:5061/model_api/rf_antifraud' [POST]>
+2017-11-30 16:21:02,862 - rf_antifraud.py:59 -- <Request 'http://127.0.0.1:5061/model_api/rf_antifraud' [POST]>Traceback (most recent call last):
+  File "/Users/wanghongkui/PycharmProjects/Model_api/rf_antifraud.py", line 42, in get_result
+    for i in input_data.keys():
+AttributeError: 'str' object has no attribute 'keys'
+
+2017-11-30 16:21:07,882 - rf_antifraud.py:32 -- receive a  rf_antifraudApi  request: <Request 'http://127.0.0.1:5061/model_api/rf_antifraud' [POST]>
+2017-11-30 16:21:07,884 - rf_antifraud.py:59 -- <Request 'http://127.0.0.1:5061/model_api/rf_antifraud' [POST]>Traceback (most recent call last):
+  File "/Users/wanghongkui/PycharmProjects/Model_api/rf_antifraud.py", line 42, in get_result
+    for i in input_data.keys():
+AttributeError: 'str' object has no attribute 'keys'
+
+2017-11-30 16:21:52,845 - rf_antifraud.py:32 -- receive a  rf_antifraudApi  request: <Request 'http://127.0.0.1:5061/model_api/rf_antifraud' [POST]>
+2017-11-30 16:21:52,846 - rf_antifraud.py:59 -- <Request 'http://127.0.0.1:5061/model_api/rf_antifraud' [POST]>Traceback (most recent call last):
+  File "/Users/wanghongkui/PycharmProjects/Model_api/rf_antifraud.py", line 42, in get_result
+    for i in input_data.keys():
+AttributeError: 'unicode' object has no attribute 'keys'
+
+2017-11-30 16:22:42,055 - rf_antifraud.py:32 -- receive a  rf_antifraudApi  request: <Request 'http://127.0.0.1:5061/model_api/rf_antifraud' [POST]>
+2017-11-30 16:22:42,056 - rf_antifraud.py:59 -- <Request 'http://127.0.0.1:5061/model_api/rf_antifraud' [POST]>Traceback (most recent call last):
+  File "/Users/wanghongkui/PycharmProjects/Model_api/rf_antifraud.py", line 42, in get_result
+    for i in input_data.keys():
+AttributeError: 'unicode' object has no attribute 'keys'
+
+2017-11-30 16:23:32,010 - rf_antifraud.py:32 -- receive a  rf_antifraudApi  request: <Request 'http://127.0.0.1:5061/model_api/rf_antifraud' [POST]>
+2017-11-30 16:23:32,011 - rf_antifraud.py:59 -- <Request 'http://127.0.0.1:5061/model_api/rf_antifraud' [POST]>Traceback (most recent call last):
+  File "/Users/wanghongkui/PycharmProjects/Model_api/rf_antifraud.py", line 36, in get_result
+    input_data = dict(request.form['input_data'])
+ValueError: dictionary update sequence element #0 has length 1; 2 is required
+
+2017-11-30 16:24:48,591 - rf_antifraud.py:32 -- receive a  rf_antifraudApi  request: <Request 'http://127.0.0.1:5061/model_api/rf_antifraud' [POST]>
+2017-11-30 16:24:48,592 - rf_antifraud.py:61 -- <Request 'http://127.0.0.1:5061/model_api/rf_antifraud' [POST]>Traceback (most recent call last):
+  File "/Users/wanghongkui/PycharmProjects/Model_api/rf_antifraud.py", line 36, in get_result
+    input_data = dict(request.form['input_data'])
+ValueError: dictionary update sequence element #0 has length 1; 2 is required
+
+2017-11-30 16:26:12,667 - rf_antifraud.py:37 -- receive a  rf_antifraudApi  request: <Request 'http://127.0.0.1:5061/model_api/rf_antifraud' [POST]>
+2017-11-30 16:26:12,669 - rf_antifraud.py:66 -- <Request 'http://127.0.0.1:5061/model_api/rf_antifraud' [POST]>Traceback (most recent call last):
+  File "/Users/wanghongkui/PycharmProjects/Model_api/rf_antifraud.py", line 48, in get_result
+    if i in input_data.keys():
+AttributeError: 'unicode' object has no attribute 'keys'
+
+2017-11-30 16:26:51,597 - rf_antifraud.py:37 -- receive a  rf_antifraudApi  request: <Request 'http://127.0.0.1:5061/model_api/rf_antifraud' [POST]>
+2017-11-30 16:26:51,598 - rf_antifraud.py:66 -- <Request 'http://127.0.0.1:5061/model_api/rf_antifraud' [POST]>Traceback (most recent call last):
+  File "/Users/wanghongkui/PycharmProjects/Model_api/rf_antifraud.py", line 48, in get_result
+    if i in input_data.keys():
+AttributeError: 'str' object has no attribute 'keys'
+
+2017-11-30 16:28:35,942 - rf_antifraud.py:37 -- receive a  rf_antifraudApi  request: <Request 'http://127.0.0.1:5061/model_api/rf_antifraud' [POST]>
+2017-11-30 16:29:56,889 - rf_antifraud.py:37 -- receive a  rf_antifraudApi  request: <Request 'http://127.0.0.1:5061/model_api/rf_antifraud' [POST]>
+2017-11-30 16:30:33,970 - rf_antifraud.py:37 -- receive a  rf_antifraudApi  request: <Request 'http://127.0.0.1:5061/model_api/rf_antifraud' [POST]>
+2017-11-30 16:32:24,073 - rf_antifraud.py:37 -- receive a  rf_antifraudApi  request: <Request 'http://127.0.0.1:5061/model_api/rf_antifraud' [POST]>
+2017-11-30 16:33:00,883 - rf_antifraud.py:37 -- receive a  rf_antifraudApi  request: <Request 'http://127.0.0.1:5061/model_api/rf_antifraud' [POST]>
+2017-11-30 16:33:01,316 - rf_antifraud.py:67 -- <Request 'http://127.0.0.1:5061/model_api/rf_antifraud' [POST]>Traceback (most recent call last):
+  File "/Users/wanghongkui/PycharmProjects/Model_api/rf_antifraud.py", line 58, in get_result
+    result = clf.predict(get_data)
+  File "/Library/Python/2.7/site-packages/sklearn/ensemble/forest.py", line 536, in predict
+    proba = self.predict_proba(X)
+  File "/Library/Python/2.7/site-packages/sklearn/ensemble/forest.py", line 576, in predict_proba
+    X = self._validate_X_predict(X)
+  File "/Library/Python/2.7/site-packages/sklearn/ensemble/forest.py", line 356, in _validate_X_predict
+    return self.estimators_[0]._validate_X_predict(X, check_input=True)
+  File "/Library/Python/2.7/site-packages/sklearn/tree/tree.py", line 373, in _validate_X_predict
+    X = check_array(X, dtype=DTYPE, accept_sparse="csr")
+  File "/Library/Python/2.7/site-packages/sklearn/utils/validation.py", line 410, in check_array
+    "if it contains a single sample.".format(array))
+ValueError: Expected 2D array, got 1D array instead:
+array=[  2.    2.    2.    2.    2.    2.    2.    2.    2.    0.1   1.    2.
+   1.   13.    0.5   2.    0.5   2.   30.   23. ].
+Reshape your data either using array.reshape(-1, 1) if your data has a single feature or array.reshape(1, -1) if it contains a single sample.
+
+2017-11-30 16:38:19,424 - rf_antifraud.py:38 -- receive a  rf_antifraudApi  request: <Request 'http://127.0.0.1:5061/model_api/rf_antifraud' [POST]>
+2017-11-30 16:38:19,430 - rf_antifraud.py:68 -- <Request 'http://127.0.0.1:5061/model_api/rf_antifraud' [POST]>Traceback (most recent call last):
+  File "/Users/wanghongkui/PycharmProjects/Model_api/rf_antifraud.py", line 51, in get_result
+    get_data.append(input_data[i])
+  File "/Library/Python/2.7/site-packages/pandas/core/frame.py", line 4547, in append
+    verify_integrity=verify_integrity)
+  File "/Library/Python/2.7/site-packages/pandas/core/reshape/concat.py", line 206, in concat
+    copy=copy)
+  File "/Library/Python/2.7/site-packages/pandas/core/reshape/concat.py", line 263, in __init__
+    raise TypeError("cannot concatenate a non-NDFrame object")
+TypeError: cannot concatenate a non-NDFrame object
+
+2017-11-30 17:12:27,387 - rf_antifraud.py:38 -- receive a  rf_antifraudApi  request: <Request 'http://127.0.0.1:5061/model_api/rf_antifraud' [POST]>
+2017-11-30 17:12:27,392 - rf_antifraud.py:69 -- <Request 'http://127.0.0.1:5061/model_api/rf_antifraud' [POST]>Traceback (most recent call last):
+  File "/Users/wanghongkui/PycharmProjects/Model_api/rf_antifraud.py", line 54, in get_result
+    get_data = pd.DataFrame(list(input_data.items()), columns=x_columns)
+  File "/Library/Python/2.7/site-packages/pandas/core/frame.py", line 314, in __init__
+    arrays, columns = _to_arrays(data, columns, dtype=dtype)
+  File "/Library/Python/2.7/site-packages/pandas/core/frame.py", line 5617, in _to_arrays
+    dtype=dtype)
+  File "/Library/Python/2.7/site-packages/pandas/core/frame.py", line 5696, in _list_to_arrays
+    coerce_float=coerce_float)
+  File "/Library/Python/2.7/site-packages/pandas/core/frame.py", line 5755, in _convert_object_array
+    'columns' % (len(columns), len(content)))
+AssertionError: 20 columns passed, passed data had 2 columns
+
+2017-11-30 17:14:23,617 - rf_antifraud.py:38 -- receive a  rf_antifraudApi  request: <Request 'http://127.0.0.1:5061/model_api/rf_antifraud' [POST]>
+2017-11-30 17:14:23,620 - rf_antifraud.py:69 -- <Request 'http://127.0.0.1:5061/model_api/rf_antifraud' [POST]>Traceback (most recent call last):
+  File "/Users/wanghongkui/PycharmProjects/Model_api/rf_antifraud.py", line 54, in get_result
+    get_data = pd.DataFrame(list(input_data.items()), columns=x_columns)
+  File "/Library/Python/2.7/site-packages/pandas/core/frame.py", line 314, in __init__
+    arrays, columns = _to_arrays(data, columns, dtype=dtype)
+  File "/Library/Python/2.7/site-packages/pandas/core/frame.py", line 5617, in _to_arrays
+    dtype=dtype)
+  File "/Library/Python/2.7/site-packages/pandas/core/frame.py", line 5696, in _list_to_arrays
+    coerce_float=coerce_float)
+  File "/Library/Python/2.7/site-packages/pandas/core/frame.py", line 5755, in _convert_object_array
+    'columns' % (len(columns), len(content)))
+AssertionError: 20 columns passed, passed data had 2 columns
+
+2017-11-30 17:14:57,815 - rf_antifraud.py:38 -- receive a  rf_antifraudApi  request: <Request 'http://127.0.0.1:5061/model_api/rf_antifraud' [POST]>
+2017-11-30 17:14:57,819 - rf_antifraud.py:69 -- <Request 'http://127.0.0.1:5061/model_api/rf_antifraud' [POST]>Traceback (most recent call last):
+  File "/Users/wanghongkui/PycharmProjects/Model_api/rf_antifraud.py", line 54, in get_result
+    get_data = pd.DataFrame(list(input_data.items()), columns=x_columns)
+  File "/Library/Python/2.7/site-packages/pandas/core/frame.py", line 314, in __init__
+    arrays, columns = _to_arrays(data, columns, dtype=dtype)
+  File "/Library/Python/2.7/site-packages/pandas/core/frame.py", line 5617, in _to_arrays
+    dtype=dtype)
+  File "/Library/Python/2.7/site-packages/pandas/core/frame.py", line 5696, in _list_to_arrays
+    coerce_float=coerce_float)
+  File "/Library/Python/2.7/site-packages/pandas/core/frame.py", line 5755, in _convert_object_array
+    'columns' % (len(columns), len(content)))
+AssertionError: 20 columns passed, passed data had 2 columns
+
+2017-11-30 17:18:02,601 - rf_antifraud.py:38 -- receive a  rf_antifraudApi  request: <Request 'http://127.0.0.1:5061/model_api/rf_antifraud' [POST]>
+2017-11-30 17:18:02,603 - rf_antifraud.py:70 -- <Request 'http://127.0.0.1:5061/model_api/rf_antifraud' [POST]>Traceback (most recent call last):
+  File "/Users/wanghongkui/PycharmProjects/Model_api/rf_antifraud.py", line 51, in get_result
+    mid_data = mid_data.append(input_data[i])
+AttributeError: 'NoneType' object has no attribute 'append'
+
+2017-11-30 17:18:19,045 - rf_antifraud.py:38 -- receive a  rf_antifraudApi  request: <Request 'http://127.0.0.1:5061/model_api/rf_antifraud' [POST]>
+2017-11-30 17:18:19,046 - rf_antifraud.py:70 -- <Request 'http://127.0.0.1:5061/model_api/rf_antifraud' [POST]>Traceback (most recent call last):
+  File "/Users/wanghongkui/PycharmProjects/Model_api/rf_antifraud.py", line 51, in get_result
+    mid_data = mid_data.append(input_data[i])
+AttributeError: 'NoneType' object has no attribute 'append'
+
+2017-11-30 17:18:57,172 - rf_antifraud.py:38 -- receive a  rf_antifraudApi  request: <Request 'http://127.0.0.1:5061/model_api/rf_antifraud' [POST]>
+2017-11-30 17:18:57,173 - rf_antifraud.py:70 -- <Request 'http://127.0.0.1:5061/model_api/rf_antifraud' [POST]>Traceback (most recent call last):
+  File "/Users/wanghongkui/PycharmProjects/Model_api/rf_antifraud.py", line 51, in get_result
+    mid_data = mid_data.append(input_data[i])
+AttributeError: 'NoneType' object has no attribute 'append'
+
+2017-11-30 17:19:46,095 - rf_antifraud.py:38 -- receive a  rf_antifraudApi  request: <Request 'http://127.0.0.1:5061/model_api/rf_antifraud' [POST]>
+2017-11-30 17:19:46,097 - rf_antifraud.py:72 -- <Request 'http://127.0.0.1:5061/model_api/rf_antifraud' [POST]>Traceback (most recent call last):
+  File "/Users/wanghongkui/PycharmProjects/Model_api/rf_antifraud.py", line 52, in get_result
+    mid_data = mid_data.append(input_data[i])
+AttributeError: 'NoneType' object has no attribute 'append'
+
+2017-11-30 17:20:45,150 - rf_antifraud.py:38 -- receive a  rf_antifraudApi  request: <Request 'http://127.0.0.1:5061/model_api/rf_antifraud' [POST]>
+2017-11-30 17:20:45,152 - rf_antifraud.py:73 -- <Request 'http://127.0.0.1:5061/model_api/rf_antifraud' [POST]>Traceback (most recent call last):
+  File "/Users/wanghongkui/PycharmProjects/Model_api/rf_antifraud.py", line 53, in get_result
+    mid_data = mid_data.append(input_data[i])
+AttributeError: 'NoneType' object has no attribute 'append'
+
+2017-11-30 17:21:42,738 - rf_antifraud.py:38 -- receive a  rf_antifraudApi  request: <Request 'http://127.0.0.1:5061/model_api/rf_antifraud' [POST]>
+2017-11-30 17:21:42,740 - rf_antifraud.py:73 -- <Request 'http://127.0.0.1:5061/model_api/rf_antifraud' [POST]>Traceback (most recent call last):
+  File "/Users/wanghongkui/PycharmProjects/Model_api/rf_antifraud.py", line 53, in get_result
+    mid_data = mid_data.append(input_data[i])
+AttributeError: 'NoneType' object has no attribute 'append'
+
+2017-11-30 17:23:20,552 - rf_antifraud.py:38 -- receive a  rf_antifraudApi  request: <Request 'http://127.0.0.1:5061/model_api/rf_antifraud' [POST]>
+2017-11-30 17:23:20,565 - rf_antifraud.py:73 -- <Request 'http://127.0.0.1:5061/model_api/rf_antifraud' [POST]>Traceback (most recent call last):
+  File "/Users/wanghongkui/PycharmProjects/Model_api/rf_antifraud.py", line 58, in get_result
+    get_data = pd.DataFrame(list(mid_data), columns=x_columns)
+  File "/Library/Python/2.7/site-packages/pandas/core/frame.py", line 330, in __init__
+    copy=copy)
+  File "/Library/Python/2.7/site-packages/pandas/core/frame.py", line 483, in _init_ndarray
+    return create_block_manager_from_blocks([values], [columns, index])
+  File "/Library/Python/2.7/site-packages/pandas/core/internals.py", line 4303, in create_block_manager_from_blocks
+    construction_error(tot_items, blocks[0].shape[1:], axes, e)
+  File "/Library/Python/2.7/site-packages/pandas/core/internals.py", line 4280, in construction_error
+    passed, implied))
+ValueError: Shape of passed values is (1, 20), indices imply (20, 20)
+
+2017-11-30 17:23:46,864 - rf_antifraud.py:38 -- receive a  rf_antifraudApi  request: <Request 'http://127.0.0.1:5061/model_api/rf_antifraud' [POST]>
+2017-11-30 17:23:46,868 - rf_antifraud.py:73 -- <Request 'http://127.0.0.1:5061/model_api/rf_antifraud' [POST]>Traceback (most recent call last):
+  File "/Users/wanghongkui/PycharmProjects/Model_api/rf_antifraud.py", line 58, in get_result
+    get_data = pd.DataFrame(mid_data, columns=x_columns)
+  File "/Library/Python/2.7/site-packages/pandas/core/frame.py", line 330, in __init__
+    copy=copy)
+  File "/Library/Python/2.7/site-packages/pandas/core/frame.py", line 483, in _init_ndarray
+    return create_block_manager_from_blocks([values], [columns, index])
+  File "/Library/Python/2.7/site-packages/pandas/core/internals.py", line 4303, in create_block_manager_from_blocks
+    construction_error(tot_items, blocks[0].shape[1:], axes, e)
+  File "/Library/Python/2.7/site-packages/pandas/core/internals.py", line 4280, in construction_error
+    passed, implied))
+ValueError: Shape of passed values is (1, 20), indices imply (20, 20)
+
+2017-11-30 17:25:02,697 - rf_antifraud.py:38 -- receive a  rf_antifraudApi  request: <Request 'http://127.0.0.1:5061/model_api/rf_antifraud' [POST]>
+2017-11-30 17:25:02,702 - rf_antifraud.py:73 -- <Request 'http://127.0.0.1:5061/model_api/rf_antifraud' [POST]>Traceback (most recent call last):
+  File "/Users/wanghongkui/PycharmProjects/Model_api/rf_antifraud.py", line 58, in get_result
+    get_data = pd.DataFrame(input_data)
+  File "/Library/Python/2.7/site-packages/pandas/core/frame.py", line 275, in __init__
+    mgr = self._init_dict(data, index, columns, dtype=dtype)
+  File "/Library/Python/2.7/site-packages/pandas/core/frame.py", line 411, in _init_dict
+    return _arrays_to_mgr(arrays, data_names, index, columns, dtype=dtype)
+  File "/Library/Python/2.7/site-packages/pandas/core/frame.py", line 5496, in _arrays_to_mgr
+    index = extract_index(arrays)
+  File "/Library/Python/2.7/site-packages/pandas/core/frame.py", line 5535, in extract_index
+    raise ValueError('If using all scalar values, you must pass'
+ValueError: If using all scalar values, you must pass an index
+
+2017-11-30 17:25:08,826 - rf_antifraud.py:38 -- receive a  rf_antifraudApi  request: <Request 'http://127.0.0.1:5061/model_api/rf_antifraud' [POST]>
+2017-11-30 17:25:08,826 - rf_antifraud.py:73 -- <Request 'http://127.0.0.1:5061/model_api/rf_antifraud' [POST]>Traceback (most recent call last):
+  File "/Users/wanghongkui/PycharmProjects/Model_api/rf_antifraud.py", line 58, in get_result
+    get_data = pd.DataFrame(input_data)
+  File "/Library/Python/2.7/site-packages/pandas/core/frame.py", line 275, in __init__
+    mgr = self._init_dict(data, index, columns, dtype=dtype)
+  File "/Library/Python/2.7/site-packages/pandas/core/frame.py", line 411, in _init_dict
+    return _arrays_to_mgr(arrays, data_names, index, columns, dtype=dtype)
+  File "/Library/Python/2.7/site-packages/pandas/core/frame.py", line 5496, in _arrays_to_mgr
+    index = extract_index(arrays)
+  File "/Library/Python/2.7/site-packages/pandas/core/frame.py", line 5535, in extract_index
+    raise ValueError('If using all scalar values, you must pass'
+ValueError: If using all scalar values, you must pass an index
+
+2017-11-30 17:26:31,215 - rf_antifraud.py:38 -- receive a  rf_antifraudApi  request: <Request 'http://127.0.0.1:5061/model_api/rf_antifraud' [POST]>
+2017-11-30 17:26:31,217 - rf_antifraud.py:73 -- <Request 'http://127.0.0.1:5061/model_api/rf_antifraud' [POST]>Traceback (most recent call last):
+  File "/Users/wanghongkui/PycharmProjects/Model_api/rf_antifraud.py", line 51, in get_result
+    if i in input_data.keys():
+AttributeError: 'str' object has no attribute 'keys'
+
+2017-11-30 17:31:01,452 - rf_antifraud.py:38 -- receive a  rf_antifraudApi  request: <Request 'http://127.0.0.1:5061/model_api/rf_antifraud' [POST]>
+2017-11-30 17:31:01,452 - rf_antifraud.py:73 -- <Request 'http://127.0.0.1:5061/model_api/rf_antifraud' [POST]>Traceback (most recent call last):
+  File "/Users/wanghongkui/PycharmProjects/Model_api/rf_antifraud.py", line 51, in get_result
+    if i in input_data.keys():
+AttributeError: 'str' object has no attribute 'keys'
+
+2017-11-30 17:34:32,296 - rf_antifraud.py:38 -- receive a  rf_antifraudApi  request: <Request 'http://127.0.0.1:5061/model_api/rf_antifraud' [POST]>
+2017-11-30 17:34:32,303 - rf_antifraud.py:73 -- <Request 'http://127.0.0.1:5061/model_api/rf_antifraud' [POST]>Traceback (most recent call last):
+  File "/Users/wanghongkui/PycharmProjects/Model_api/rf_antifraud.py", line 58, in get_result
+    get_data = pd.DataFrame(input_data)
+  File "/Library/Python/2.7/site-packages/pandas/core/frame.py", line 275, in __init__
+    mgr = self._init_dict(data, index, columns, dtype=dtype)
+  File "/Library/Python/2.7/site-packages/pandas/core/frame.py", line 411, in _init_dict
+    return _arrays_to_mgr(arrays, data_names, index, columns, dtype=dtype)
+  File "/Library/Python/2.7/site-packages/pandas/core/frame.py", line 5496, in _arrays_to_mgr
+    index = extract_index(arrays)
+  File "/Library/Python/2.7/site-packages/pandas/core/frame.py", line 5535, in extract_index
+    raise ValueError('If using all scalar values, you must pass'
+ValueError: If using all scalar values, you must pass an index
+
+2017-11-30 17:35:17,748 - rf_antifraud.py:38 -- receive a  rf_antifraudApi  request: <Request 'http://127.0.0.1:5061/model_api/rf_antifraud' [POST]>
+2017-11-30 17:35:17,754 - rf_antifraud.py:73 -- <Request 'http://127.0.0.1:5061/model_api/rf_antifraud' [POST]>Traceback (most recent call last):
+  File "/Users/wanghongkui/PycharmProjects/Model_api/rf_antifraud.py", line 58, in get_result
+    get_data = pd.DataFrame(input_data)
+  File "/Library/Python/2.7/site-packages/pandas/core/frame.py", line 275, in __init__
+    mgr = self._init_dict(data, index, columns, dtype=dtype)
+  File "/Library/Python/2.7/site-packages/pandas/core/frame.py", line 411, in _init_dict
+    return _arrays_to_mgr(arrays, data_names, index, columns, dtype=dtype)
+  File "/Library/Python/2.7/site-packages/pandas/core/frame.py", line 5496, in _arrays_to_mgr
+    index = extract_index(arrays)
+  File "/Library/Python/2.7/site-packages/pandas/core/frame.py", line 5535, in extract_index
+    raise ValueError('If using all scalar values, you must pass'
+ValueError: If using all scalar values, you must pass an index
+
+2017-11-30 17:39:03,679 - rf_antifraud.py:38 -- receive a  rf_antifraudApi  request: <Request 'http://127.0.0.1:5061/model_api/rf_antifraud' [POST]>
+2017-11-30 17:39:03,687 - rf_antifraud.py:75 -- <Request 'http://127.0.0.1:5061/model_api/rf_antifraud' [POST]>Traceback (most recent call last):
+  File "/Users/wanghongkui/PycharmProjects/Model_api/rf_antifraud.py", line 60, in get_result
+    get_data = pd.DataFrame(data=mid_data, columns=x_columns)
+  File "/Library/Python/2.7/site-packages/pandas/core/frame.py", line 330, in __init__
+    copy=copy)
+  File "/Library/Python/2.7/site-packages/pandas/core/frame.py", line 483, in _init_ndarray
+    return create_block_manager_from_blocks([values], [columns, index])
+  File "/Library/Python/2.7/site-packages/pandas/core/internals.py", line 4303, in create_block_manager_from_blocks
+    construction_error(tot_items, blocks[0].shape[1:], axes, e)
+  File "/Library/Python/2.7/site-packages/pandas/core/internals.py", line 4280, in construction_error
+    passed, implied))
+ValueError: Shape of passed values is (1, 20), indices imply (20, 20)
+
+2017-11-30 17:42:07,197 - rf_antifraud.py:38 -- receive a  rf_antifraudApi  request: <Request 'http://127.0.0.1:5061/model_api/rf_antifraud' [POST]>
+2017-11-30 17:42:07,205 - rf_antifraud.py:76 -- <Request 'http://127.0.0.1:5061/model_api/rf_antifraud' [POST]>Traceback (most recent call last):
+  File "/Users/wanghongkui/PycharmProjects/Model_api/rf_antifraud.py", line 61, in get_result
+    get_data = pd.DataFrame(data=mid_data, columns=x_columns)
+  File "/Library/Python/2.7/site-packages/pandas/core/frame.py", line 330, in __init__
+    copy=copy)
+  File "/Library/Python/2.7/site-packages/pandas/core/frame.py", line 483, in _init_ndarray
+    return create_block_manager_from_blocks([values], [columns, index])
+  File "/Library/Python/2.7/site-packages/pandas/core/internals.py", line 4303, in create_block_manager_from_blocks
+    construction_error(tot_items, blocks[0].shape[1:], axes, e)
+  File "/Library/Python/2.7/site-packages/pandas/core/internals.py", line 4280, in construction_error
+    passed, implied))
+ValueError: Shape of passed values is (1, 20), indices imply (20, 20)
+
+2017-11-30 17:48:02,927 - rf_antifraud.py:38 -- receive a  rf_antifraudApi  request: <Request 'http://127.0.0.1:5061/model_api/rf_antifraud' [POST]>
+2017-11-30 17:48:24,796 - rf_antifraud.py:38 -- receive a  rf_antifraudApi  request: <Request 'http://127.0.0.1:5061/model_api/rf_antifraud' [POST]>
+2017-11-30 18:40:20,899 - rf_antifraud.py:38 -- receive a  rf_antifraudApi  request: <Request 'http://127.0.0.1:5061/model_api/rf_antifraud' [POST]>
+2017-11-30 18:42:01,173 - rf_antifraud.py:38 -- receive a  rf_antifraudApi  request: <Request 'http://127.0.0.1:5061/model_api/rf_antifraud' [POST]>
+2017-11-30 18:44:42,576 - rf_antifraud.py:38 -- receive a  rf_antifraudApi  request: <Request 'http://127.0.0.1:5061/model_api/rf_antifraud' [POST]>
+2017-11-30 18:44:42,581 - rf_antifraud.py:76 -- <Request 'http://127.0.0.1:5061/model_api/rf_antifraud' [POST]>Traceback (most recent call last):
+  File "/Users/wanghongkui/PycharmProjects/Model_api/rf_antifraud.py", line 60, in get_result
+    get_data = pd.DataFrame(input_data)
+  File "/Library/Python/2.7/site-packages/pandas/core/frame.py", line 275, in __init__
+    mgr = self._init_dict(data, index, columns, dtype=dtype)
+  File "/Library/Python/2.7/site-packages/pandas/core/frame.py", line 411, in _init_dict
+    return _arrays_to_mgr(arrays, data_names, index, columns, dtype=dtype)
+  File "/Library/Python/2.7/site-packages/pandas/core/frame.py", line 5496, in _arrays_to_mgr
+    index = extract_index(arrays)
+  File "/Library/Python/2.7/site-packages/pandas/core/frame.py", line 5535, in extract_index
+    raise ValueError('If using all scalar values, you must pass'
+ValueError: If using all scalar values, you must pass an index
+
+2017-11-30 18:45:29,643 - rf_antifraud.py:38 -- receive a  rf_antifraudApi  request: <Request 'http://127.0.0.1:5061/model_api/rf_antifraud' [POST]>
+2017-11-30 18:45:29,645 - rf_antifraud.py:76 -- <Request 'http://127.0.0.1:5061/model_api/rf_antifraud' [POST]>Traceback (most recent call last):
+  File "/Users/wanghongkui/PycharmProjects/Model_api/rf_antifraud.py", line 60, in get_result
+    get_data = pd.DataFrame(input_data)
+  File "/Library/Python/2.7/site-packages/pandas/core/frame.py", line 275, in __init__
+    mgr = self._init_dict(data, index, columns, dtype=dtype)
+  File "/Library/Python/2.7/site-packages/pandas/core/frame.py", line 411, in _init_dict
+    return _arrays_to_mgr(arrays, data_names, index, columns, dtype=dtype)
+  File "/Library/Python/2.7/site-packages/pandas/core/frame.py", line 5496, in _arrays_to_mgr
+    index = extract_index(arrays)
+  File "/Library/Python/2.7/site-packages/pandas/core/frame.py", line 5535, in extract_index
+    raise ValueError('If using all scalar values, you must pass'
+ValueError: If using all scalar values, you must pass an index
+
+2017-11-30 18:46:07,173 - rf_antifraud.py:38 -- receive a  rf_antifraudApi  request: <Request 'http://127.0.0.1:5061/model_api/rf_antifraud' [POST]>
+2017-11-30 18:48:35,728 - rf_antifraud.py:38 -- receive a  rf_antifraudApi  request: <Request 'http://127.0.0.1:5061/model_api/rf_antifraud' [POST]>
+2017-11-30 18:49:07,727 - rf_antifraud.py:38 -- receive a  rf_antifraudApi  request: <Request 'http://127.0.0.1:5061/model_api/rf_antifraud' [POST]>
+2017-11-30 18:50:01,681 - rf_antifraud.py:38 -- receive a  rf_antifraudApi  request: <Request 'http://127.0.0.1:5061/model_api/rf_antifraud' [POST]>
+2017-11-30 18:51:28,265 - rf_antifraud.py:38 -- receive a  rf_antifraudApi  request: <Request 'http://127.0.0.1:5061/model_api/rf_antifraud' [POST]>
+2017-11-30 18:52:43,130 - rf_antifraud.py:38 -- receive a  rf_antifraudApi  request: <Request 'http://127.0.0.1:5061/model_api/rf_antifraud' [POST]>
+2017-11-30 18:54:57,679 - rf_antifraud.py:38 -- receive a  rf_antifraudApi  request: <Request 'http://127.0.0.1:5061/model_api/rf_antifraud' [POST]>
+2017-11-30 18:57:19,273 - rf_antifraud.py:38 -- receive a  rf_antifraudApi  request: <Request 'http://127.0.0.1:5061/model_api/rf_antifraud' [POST]>
+2017-11-30 19:00:54,247 - rf_antifraud.py:38 -- receive a  rf_antifraudApi  request: <Request 'http://127.0.0.1:5061/model_api/rf_antifraud' [POST]>
+2018-01-25 16:35:14,849 - rf_antifraud.py:46 -- receive a  rf_antifraudApi  request: <Request 'http://127.0.0.1:5061/model_api/rf_antifraud' [POST]>
+2018-01-25 16:44:02,297 - rf_antifraud.py:47 -- receive a  rf_antifraudApi  request: <Request 'http://127.0.0.1:5061/model_api/rf_antifraud' [POST]>
+2018-01-25 16:52:20,090 - rf_antifraud.py:47 -- receive a  rf_antifraudApi  request: <Request 'http://127.0.0.1:5061/model_api/rf_antifraud' [POST]>
+2018-01-25 16:53:42,954 - rf_antifraud.py:47 -- receive a  rf_antifraudApi  request: <Request 'http://127.0.0.1:5061/model_api/rf_antifraud' [POST]>
+2018-01-25 16:53:44,608 - rf_antifraud.py:47 -- receive a  rf_antifraudApi  request: <Request 'http://127.0.0.1:5061/model_api/rf_antifraud' [POST]>
+2018-01-25 16:53:45,781 - rf_antifraud.py:47 -- receive a  rf_antifraudApi  request: <Request 'http://127.0.0.1:5061/model_api/rf_antifraud' [POST]>
+2018-01-25 16:53:47,126 - rf_antifraud.py:47 -- receive a  rf_antifraudApi  request: <Request 'http://127.0.0.1:5061/model_api/rf_antifraud' [POST]>
+2018-01-25 16:59:23,685 - rf_antifraud.py:47 -- receive a  rf_antifraudApi  request: <Request 'http://127.0.0.1:5061/model_api/rf_antifraud' [POST]>
+2018-01-25 16:59:23,690 - rf_antifraud.py:73 -- <Request 'http://127.0.0.1:5061/model_api/rf_antifraud' [POST]>Traceback (most recent call last):
+  File "/Users/wanghongkui/PycharmProjects/Model_api/rf_antifraud.py", line 63, in get_result
+    result = clf.predict_prob(get_data)
+AttributeError: 'RandomForestClassifier' object has no attribute 'predict_prob'
+
+2018-01-25 17:00:20,970 - rf_antifraud.py:47 -- receive a  rf_antifraudApi  request: <Request 'http://127.0.0.1:5061/model_api/rf_antifraud' [POST]>
+2018-01-25 17:00:25,472 - rf_antifraud.py:47 -- receive a  rf_antifraudApi  request: <Request 'http://127.0.0.1:5061/model_api/rf_antifraud' [POST]>
+2018-01-25 17:26:09,927 - rf_antifraud.py:47 -- receive a  rf_antifraudApi  request: <Request 'http://127.0.0.1:5061/model_api/rf_antifraud' [POST]>
+2018-01-25 17:26:10,070 - rf_antifraud.py:73 -- <Request 'http://127.0.0.1:5061/model_api/rf_antifraud' [POST]>Traceback (most recent call last):
+  File "/Users/wanghongkui/PycharmProjects/Model_api/rf_antifraud.py", line 63, in get_result
+    result = clf.predict_proba(get_data)[[1,1,1]]
+IndexError: index 1 is out of bounds for axis 0 with size 1
+
+2018-01-25 17:26:25,660 - rf_antifraud.py:47 -- receive a  rf_antifraudApi  request: <Request 'http://127.0.0.1:5061/model_api/rf_antifraud' [POST]>
+2018-01-25 17:26:25,802 - rf_antifraud.py:73 -- <Request 'http://127.0.0.1:5061/model_api/rf_antifraud' [POST]>Traceback (most recent call last):
+  File "/Users/wanghongkui/PycharmProjects/Model_api/rf_antifraud.py", line 63, in get_result
+    result = clf.predict_proba(get_data)[[1,1]]
+IndexError: index 1 is out of bounds for axis 0 with size 1
+
+2018-01-25 17:26:45,838 - rf_antifraud.py:47 -- receive a  rf_antifraudApi  request: <Request 'http://127.0.0.1:5061/model_api/rf_antifraud' [POST]>
+2018-01-25 17:26:45,961 - rf_antifraud.py:73 -- <Request 'http://127.0.0.1:5061/model_api/rf_antifraud' [POST]>Traceback (most recent call last):
+  File "/Users/wanghongkui/PycharmProjects/Model_api/rf_antifraud.py", line 63, in get_result
+    result = clf.predict_proba(get_data)[[0,1]]
+IndexError: index 1 is out of bounds for axis 0 with size 1
+
+2018-01-25 17:27:02,806 - rf_antifraud.py:47 -- receive a  rf_antifraudApi  request: <Request 'http://127.0.0.1:5061/model_api/rf_antifraud' [POST]>
+2018-01-25 17:27:02,929 - rf_antifraud.py:73 -- <Request 'http://127.0.0.1:5061/model_api/rf_antifraud' [POST]>Traceback (most recent call last):
+  File "/Users/wanghongkui/PycharmProjects/Model_api/rf_antifraud.py", line 67, in get_result
+    resp['result'].append(result[0])
+IndexError: invalid index to scalar variable.
+
+2018-01-25 17:27:08,948 - rf_antifraud.py:47 -- receive a  rf_antifraudApi  request: <Request 'http://127.0.0.1:5061/model_api/rf_antifraud' [POST]>
+2018-01-25 17:27:09,094 - rf_antifraud.py:73 -- <Request 'http://127.0.0.1:5061/model_api/rf_antifraud' [POST]>Traceback (most recent call last):
+  File "/Users/wanghongkui/PycharmProjects/Model_api/rf_antifraud.py", line 67, in get_result
+    resp['result'].append(result[0])
+IndexError: invalid index to scalar variable.
+
+2018-01-25 17:27:24,836 - rf_antifraud.py:47 -- receive a  rf_antifraudApi  request: <Request 'http://127.0.0.1:5061/model_api/rf_antifraud' [POST]>
+2018-01-25 17:28:02,632 - rf_antifraud.py:47 -- receive a  rf_antifraudApi  request: <Request 'http://127.0.0.1:5061/model_api/rf_antifraud' [POST]>
+2018-01-25 17:28:09,761 - rf_antifraud.py:47 -- receive a  rf_antifraudApi  request: <Request 'http://127.0.0.1:5061/model_api/rf_antifraud' [POST]>
+2018-01-25 17:28:13,771 - rf_antifraud.py:47 -- receive a  rf_antifraudApi  request: <Request 'http://127.0.0.1:5061/model_api/rf_antifraud' [POST]>
+2018-01-30 16:58:41,061 - rf_antifraud.py:47 -- receive a  rf_antifraudApi  request: <Request 'http://127.0.0.1:5061/model_api/rf_antifraud' [POST]>
+2018-01-30 16:58:41,065 - rf_antifraud.py:73 -- <Request 'http://127.0.0.1:5061/model_api/rf_antifraud' [POST]>Traceback (most recent call last):
+  File "/Users/wanghongkui/PycharmProjects/Model_api/rf_antifraud.py", line 53, in get_result
+    input_data = request.form['input_data'].encode("utf-8")
+  File "/Users/wanghongkui/.pyenv/versions/env2714/lib/python2.7/site-packages/werkzeug/datastructures.py", line 431, in __getitem__
+    raise exceptions.BadRequestKeyError(key)
+BadRequestKeyError: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+
+2018-01-30 16:58:47,280 - rf_antifraud.py:47 -- receive a  rf_antifraudApi  request: <Request 'http://127.0.0.1:5061/model_api/rf_antifraud' [POST]>
+2018-01-30 16:58:47,281 - rf_antifraud.py:73 -- <Request 'http://127.0.0.1:5061/model_api/rf_antifraud' [POST]>Traceback (most recent call last):
+  File "/Users/wanghongkui/PycharmProjects/Model_api/rf_antifraud.py", line 53, in get_result
+    input_data = request.form['input_data'].encode("utf-8")
+  File "/Users/wanghongkui/.pyenv/versions/env2714/lib/python2.7/site-packages/werkzeug/datastructures.py", line 431, in __getitem__
+    raise exceptions.BadRequestKeyError(key)
+BadRequestKeyError: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+
+2018-01-30 16:58:56,202 - antifraud.py:58 -- receive a  ios_antifraudApi  request: <Request 'http://127.0.0.1:5061/model_api/antifraud/ios' [POST]>
+2018-01-30 16:58:56,204 - antifraud.py:132 -- <Request 'http://127.0.0.1:5061/model_api/antifraud/ios' [POST]>Traceback (most recent call last):
+  File "/Users/wanghongkui/PycharmProjects/Model_api/antifraud.py", line 64, in get_result_ios
+    input_data = eval(input_data)
+  File "<string>", line 1
+    {"cuishou_cnt":,"user_log_cnt":23,"zdcy_score":80,"dev_login_cnt":12,"contact_early_morning":9,"dev_ip_cnt":11,"device_ip_cnt":2, "yunfeng_historyloantimes":2, "yunfeng_currentdueamount":2, "yunfeng_currentoverduetimes":2, "yunfeng_historyoverduetimes":2, "user_isin_yq_30_contacts":2, "txl_yq_cnt":2, "tongdun_cnt_apply_3m":2, "zdcy_score":2, "night_activities_rate":0.1, "tongdun_cnt_apply_7day":1, "tongdun_cnt_apply_1m":2,  "online_mons":13, sage":30,"device_city_cnt":23}
+                   ^
+SyntaxError: invalid syntax
+
+2018-01-30 16:59:33,263 - antifraud.py:58 -- receive a  ios_antifraudApi  request: <Request 'http://127.0.0.1:5061/model_api/antifraud/ios' [POST]>
+2018-01-30 16:59:33,265 - antifraud.py:132 -- <Request 'http://127.0.0.1:5061/model_api/antifraud/ios' [POST]>Traceback (most recent call last):
+  File "/Users/wanghongkui/PycharmProjects/Model_api/antifraud.py", line 64, in get_result_ios
+    input_data = eval(input_data)
+  File "<string>", line 1
+    {"cuishou_cnt":,"user_log_cnt":23,"zdcy_score":80,"dev_login_cnt":12,"contact_early_morning":9,"dev_ip_cnt":11,"device_ip_cnt":2, "yunfeng_historyloantimes":2, "yunfeng_currentdueamount":2, "yunfeng_currentoverduetimes":2, "yunfeng_historyoverduetimes":2, "user_isin_yq_30_contacts":2, "txl_yq_cnt":2, "tongdun_cnt_apply_3m":2, "zdcy_score":2, "night_activities_rate":0.1, "tongdun_cnt_apply_7day":1, "tongdun_cnt_apply_1m":2,  "online_mons":13, sage":30,"device_city_cnt":23}
+                   ^
+SyntaxError: invalid syntax
+
+2018-01-30 17:00:27,605 - antifraud.py:58 -- receive a  ios_antifraudApi  request: <Request 'http://127.0.0.1:5061/model_api/antifraud/ios' [POST]>
+2018-01-30 17:00:27,606 - antifraud.py:132 -- <Request 'http://127.0.0.1:5061/model_api/antifraud/ios' [POST]>Traceback (most recent call last):
+  File "/Users/wanghongkui/PycharmProjects/Model_api/antifraud.py", line 64, in get_result_ios
+    input_data = eval(input_data)
+  File "<string>", line 1
+    {"cuishou_cnt":
+                  ^
+SyntaxError: unexpected EOF while parsing
+
+2018-01-30 17:00:56,584 - antifraud.py:58 -- receive a  ios_antifraudApi  request: <Request 'http://127.0.0.1:5061/model_api/antifraud/ios' [POST]>
+2018-01-30 17:00:56,585 - antifraud.py:132 -- <Request 'http://127.0.0.1:5061/model_api/antifraud/ios' [POST]>Traceback (most recent call last):
+  File "/Users/wanghongkui/PycharmProjects/Model_api/antifraud.py", line 64, in get_result_ios
+    input_data = eval(input_data)
+  File "<string>", line 1
+    {"user_log_cnt":23,"zdcy_score":80,"dev_login_cnt":12,"contact_early_morning":9,"dev_ip_cnt":11,"device_ip_cnt":2, "yunfeng_historyloantimes":2, "yunfeng_currentdueamount":2, "yunfeng_currentoverduetimes":2, "yunfeng_historyoverduetimes":2, "user_isin_yq_30_contacts":2, "txl_yq_cnt":2, "tongdun_cnt_apply_3m":2, "zdcy_score":2, "night_activities_rate":0.1, "tongdun_cnt_apply_7day":1, "tongdun_cnt_apply_1m":2,  "online_mons":13, sage":30,"device_city_cnt":23}
+                                                                                                                                                                                                                                                                                                                                                                                                                                                            ^
+SyntaxError: invalid syntax
+
+2018-01-30 17:01:32,595 - antifraud.py:58 -- receive a  ios_antifraudApi  request: <Request 'http://127.0.0.1:5061/model_api/antifraud/ios' [POST]>
+2018-01-30 17:01:32,614 - antifraud.py:132 -- <Request 'http://127.0.0.1:5061/model_api/antifraud/ios' [POST]>Traceback (most recent call last):
+  File "/Users/wanghongkui/PycharmProjects/Model_api/antifraud.py", line 67, in get_result_ios
+    get_data = pd.DataFrame(input_data, index = [0])
+  File "/Users/wanghongkui/.pyenv/versions/env2714/lib/python2.7/site-packages/pandas/core/frame.py", line 330, in __init__
+    mgr = self._init_dict(data, index, columns, dtype=dtype)
+  File "/Users/wanghongkui/.pyenv/versions/env2714/lib/python2.7/site-packages/pandas/core/frame.py", line 461, in _init_dict
+    return _arrays_to_mgr(arrays, data_names, index, columns, dtype=dtype)
+  File "/Users/wanghongkui/.pyenv/versions/env2714/lib/python2.7/site-packages/pandas/core/frame.py", line 6173, in _arrays_to_mgr
+    return create_block_manager_from_arrays(arrays, arr_names, axes)
+  File "/Users/wanghongkui/.pyenv/versions/env2714/lib/python2.7/site-packages/pandas/core/internals.py", line 4642, in create_block_manager_from_arrays
+    construction_error(len(arrays), arrays[0].shape, axes, e)
+  File "/Users/wanghongkui/.pyenv/versions/env2714/lib/python2.7/site-packages/pandas/core/internals.py", line 4604, in construction_error
+    raise e
+ValueError: Empty data passed with indices specified.
+
+2018-01-30 17:01:44,599 - antifraud.py:58 -- receive a  ios_antifraudApi  request: <Request 'http://127.0.0.1:5061/model_api/antifraud/ios' [POST]>
+2018-01-30 17:01:44,599 - antifraud.py:132 -- <Request 'http://127.0.0.1:5061/model_api/antifraud/ios' [POST]>Traceback (most recent call last):
+  File "/Users/wanghongkui/PycharmProjects/Model_api/antifraud.py", line 64, in get_result_ios
+    input_data = eval(input_data)
+  File "<string>", line 1
+    {"cuishou_cnt":,"user_log_cnt":23,"zdcy_score":80,"dev_login_cnt":12,"contact_early_morning":9,"dev_ip_cnt":11,"device_ip_cnt":2, "yunfeng_historyloantimes":2, "yunfeng_currentdueamount":2, "yunfeng_currentoverduetimes":2, "yunfeng_historyoverduetimes":2, "user_isin_yq_30_contacts":2, "txl_yq_cnt":2, "tongdun_cnt_apply_3m":2, "zdcy_score":2, "night_activities_rate":0.1, "tongdun_cnt_apply_7day":1, "tongdun_cnt_apply_1m":2,  "online_mons":13, "sage":30,"device_city_cnt":23}
+                   ^
+SyntaxError: invalid syntax
+
+2018-01-30 17:03:51,446 - antifraud.py:58 -- receive a  ios_antifraudApi  request: <Request 'http://127.0.0.1:5061/model_api/antifraud/ios' [POST]>
+2018-01-30 17:03:51,448 - antifraud.py:132 -- <Request 'http://127.0.0.1:5061/model_api/antifraud/ios' [POST]>Traceback (most recent call last):
+  File "/Users/wanghongkui/PycharmProjects/Model_api/antifraud.py", line 64, in get_result_ios
+    input_data = eval(input_data)
+  File "<string>", line 1, in <module>
+NameError: name 'null' is not defined
+
+2018-01-30 17:04:47,375 - antifraud.py:58 -- receive a  ios_antifraudApi  request: <Request 'http://127.0.0.1:5061/model_api/antifraud/ios' [POST]>
+2018-01-30 17:04:47,402 - antifraud.py:132 -- <Request 'http://127.0.0.1:5061/model_api/antifraud/ios' [POST]>Traceback (most recent call last):
+  File "/Users/wanghongkui/PycharmProjects/Model_api/antifraud.py", line 92, in get_result_ios
+    if get_data['cuishou_cnt'][0] is None:
+  File "/Users/wanghongkui/.pyenv/versions/env2714/lib/python2.7/site-packages/pandas/core/frame.py", line 2139, in __getitem__
+    return self._getitem_column(key)
+  File "/Users/wanghongkui/.pyenv/versions/env2714/lib/python2.7/site-packages/pandas/core/frame.py", line 2146, in _getitem_column
+    return self._get_item_cache(key)
+  File "/Users/wanghongkui/.pyenv/versions/env2714/lib/python2.7/site-packages/pandas/core/generic.py", line 1842, in _get_item_cache
+    values = self._data.get(item)
+  File "/Users/wanghongkui/.pyenv/versions/env2714/lib/python2.7/site-packages/pandas/core/internals.py", line 3843, in get
+    loc = self.items.get_loc(item)
+  File "/Users/wanghongkui/.pyenv/versions/env2714/lib/python2.7/site-packages/pandas/core/indexes/base.py", line 2527, in get_loc
+    return self._engine.get_loc(self._maybe_cast_indexer(key))
+  File "pandas/_libs/index.pyx", line 117, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 139, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1265, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1273, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'cuishou_cnt'
+
+2018-01-30 17:06:18,482 - antifraud.py:58 -- receive a  ios_antifraudApi  request: <Request 'http://127.0.0.1:5061/model_api/antifraud/ios' [POST]>
+2018-01-30 17:06:18,500 - antifraud.py:132 -- <Request 'http://127.0.0.1:5061/model_api/antifraud/ios' [POST]>Traceback (most recent call last):
+  File "/Users/wanghongkui/PycharmProjects/Model_api/antifraud.py", line 100, in get_result_ios
+    if get_data['user_login_cnt'][0] is None:
+  File "/Users/wanghongkui/.pyenv/versions/env2714/lib/python2.7/site-packages/pandas/core/frame.py", line 2139, in __getitem__
+    return self._getitem_column(key)
+  File "/Users/wanghongkui/.pyenv/versions/env2714/lib/python2.7/site-packages/pandas/core/frame.py", line 2146, in _getitem_column
+    return self._get_item_cache(key)
+  File "/Users/wanghongkui/.pyenv/versions/env2714/lib/python2.7/site-packages/pandas/core/generic.py", line 1842, in _get_item_cache
+    values = self._data.get(item)
+  File "/Users/wanghongkui/.pyenv/versions/env2714/lib/python2.7/site-packages/pandas/core/internals.py", line 3843, in get
+    loc = self.items.get_loc(item)
+  File "/Users/wanghongkui/.pyenv/versions/env2714/lib/python2.7/site-packages/pandas/core/indexes/base.py", line 2527, in get_loc
+    return self._engine.get_loc(self._maybe_cast_indexer(key))
+  File "pandas/_libs/index.pyx", line 117, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 139, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1265, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1273, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'user_login_cnt'
+
+2018-01-30 17:07:06,277 - antifraud.py:58 -- receive a  ios_antifraudApi  request: <Request 'http://127.0.0.1:5061/model_api/antifraud/ios' [POST]>
+2018-01-30 17:07:06,290 - antifraud.py:132 -- <Request 'http://127.0.0.1:5061/model_api/antifraud/ios' [POST]>Traceback (most recent call last):
+  File "/Users/wanghongkui/PycharmProjects/Model_api/antifraud.py", line 116, in get_result_ios
+    data_final = get_data[ios_columns]
+  File "/Users/wanghongkui/.pyenv/versions/env2714/lib/python2.7/site-packages/pandas/core/frame.py", line 2133, in __getitem__
+    return self._getitem_array(key)
+  File "/Users/wanghongkui/.pyenv/versions/env2714/lib/python2.7/site-packages/pandas/core/frame.py", line 2177, in _getitem_array
+    indexer = self.loc._convert_to_indexer(key, axis=1)
+  File "/Users/wanghongkui/.pyenv/versions/env2714/lib/python2.7/site-packages/pandas/core/indexing.py", line 1269, in _convert_to_indexer
+    .format(mask=objarr[mask]))
+KeyError: "['yunfeng_historyoverduetimes ' 'tongdun_cnt_apply_3m ' 'cuishou_cnt '\n 'online_mons '] not in index"
+
+2018-01-30 17:08:17,935 - antifraud.py:58 -- receive a  ios_antifraudApi  request: <Request 'http://127.0.0.1:5061/model_api/antifraud/ios' [POST]>
+2018-01-30 17:08:17,946 - antifraud.py:132 -- <Request 'http://127.0.0.1:5061/model_api/antifraud/ios' [POST]>Traceback (most recent call last):
+  File "/Users/wanghongkui/PycharmProjects/Model_api/antifraud.py", line 116, in get_result_ios
+    data_final = get_data[ios_columns]
+  File "/Users/wanghongkui/.pyenv/versions/env2714/lib/python2.7/site-packages/pandas/core/frame.py", line 2133, in __getitem__
+    return self._getitem_array(key)
+  File "/Users/wanghongkui/.pyenv/versions/env2714/lib/python2.7/site-packages/pandas/core/frame.py", line 2177, in _getitem_array
+    indexer = self.loc._convert_to_indexer(key, axis=1)
+  File "/Users/wanghongkui/.pyenv/versions/env2714/lib/python2.7/site-packages/pandas/core/indexing.py", line 1269, in _convert_to_indexer
+    .format(mask=objarr[mask]))
+KeyError: "['tongdun_cnt_apply_3m '] not in index"
+
+2018-01-30 17:08:37,818 - antifraud.py:58 -- receive a  ios_antifraudApi  request: <Request 'http://127.0.0.1:5061/model_api/antifraud/ios' [POST]>
+2018-01-30 17:08:37,843 - antifraud.py:132 -- <Request 'http://127.0.0.1:5061/model_api/antifraud/ios' [POST]>Traceback (most recent call last):
+  File "/Users/wanghongkui/PycharmProjects/Model_api/antifraud.py", line 126, in get_result_ios
+    resp['result'].append(result[0])
+TypeError: 'float' object has no attribute '__getitem__'
+
+2018-01-30 17:10:23,730 - antifraud.py:58 -- receive a  ios_antifraudApi  request: <Request 'http://127.0.0.1:5061/model_api/antifraud/ios' [POST]>
+2018-01-30 17:11:53,258 - antifraud.py:58 -- receive a  ios_antifraudApi  request: <Request 'http://127.0.0.1:5061/model_api/antifraud/ios' [POST]>
+2018-01-30 17:12:54,379 - antifraud.py:58 -- receive a  ios_antifraudApi  request: <Request 'http://127.0.0.1:5061/model_api/antifraud/ios' [POST]>
+2018-01-30 17:14:20,548 - antifraud.py:58 -- receive a  ios_antifraudApi  request: <Request 'http://127.0.0.1:5061/model_api/antifraud/ios' [POST]>
+2018-01-30 17:16:30,081 - antifraud.py:58 -- receive a  ios_antifraudApi  request: <Request 'http://127.0.0.1:5061/model_api/antifraud/ios' [POST]>
+2018-01-30 17:26:06,585 - antifraud.py:58 -- receive a  ios_antifraudApi  request: <Request 'http://127.0.0.1:5061/model_api/antifraud/ios' [POST]>
+2018-01-30 17:27:15,484 - antifraud.py:58 -- receive a  ios_antifraudApi  request: <Request 'http://127.0.0.1:5061/model_api/antifraud/ios' [POST]>
+2018-01-30 17:33:01,016 - antifraud.py:143 -- receive a  android_antifraudApi  request: <Request 'http://127.0.0.1:5061/model_api/antifraud/android' [POST]>
+2018-01-30 17:33:01,037 - antifraud.py:223 -- <Request 'http://127.0.0.1:5061/model_api/antifraud/android' [POST]>Traceback (most recent call last):
+  File "/Users/wanghongkui/PycharmProjects/Model_api/antifraud.py", line 188, in get_result_android
+    if get_data['dev_login_interval_60s_cnt'][0] == -1:
+  File "/Users/wanghongkui/.pyenv/versions/env2714/lib/python2.7/site-packages/pandas/core/frame.py", line 2139, in __getitem__
+    return self._getitem_column(key)
+  File "/Users/wanghongkui/.pyenv/versions/env2714/lib/python2.7/site-packages/pandas/core/frame.py", line 2146, in _getitem_column
+    return self._get_item_cache(key)
+  File "/Users/wanghongkui/.pyenv/versions/env2714/lib/python2.7/site-packages/pandas/core/generic.py", line 1842, in _get_item_cache
+    values = self._data.get(item)
+  File "/Users/wanghongkui/.pyenv/versions/env2714/lib/python2.7/site-packages/pandas/core/internals.py", line 3843, in get
+    loc = self.items.get_loc(item)
+  File "/Users/wanghongkui/.pyenv/versions/env2714/lib/python2.7/site-packages/pandas/core/indexes/base.py", line 2527, in get_loc
+    return self._engine.get_loc(self._maybe_cast_indexer(key))
+  File "pandas/_libs/index.pyx", line 117, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 139, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1265, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1273, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'dev_login_interval_60s_cnt'
+
+2018-01-30 17:33:44,001 - antifraud.py:143 -- receive a  android_antifraudApi  request: <Request 'http://127.0.0.1:5061/model_api/antifraud/android' [POST]>
+2018-01-30 17:33:44,008 - antifraud.py:223 -- <Request 'http://127.0.0.1:5061/model_api/antifraud/android' [POST]>Traceback (most recent call last):
+  File "/Users/wanghongkui/PycharmProjects/Model_api/antifraud.py", line 207, in get_result_android
+    data_final = get_data[android_columns]
+  File "/Users/wanghongkui/.pyenv/versions/env2714/lib/python2.7/site-packages/pandas/core/frame.py", line 2133, in __getitem__
+    return self._getitem_array(key)
+  File "/Users/wanghongkui/.pyenv/versions/env2714/lib/python2.7/site-packages/pandas/core/frame.py", line 2177, in _getitem_array
+    indexer = self.loc._convert_to_indexer(key, axis=1)
+  File "/Users/wanghongkui/.pyenv/versions/env2714/lib/python2.7/site-packages/pandas/core/indexing.py", line 1269, in _convert_to_indexer
+    .format(mask=objarr[mask]))
+KeyError: "['user_log_cnt'] not in index"
+
+2018-01-30 17:34:39,486 - antifraud.py:143 -- receive a  android_antifraudApi  request: <Request 'http://127.0.0.1:5061/model_api/antifraud/android' [POST]>
+2018-01-30 17:34:39,498 - antifraud.py:223 -- <Request 'http://127.0.0.1:5061/model_api/antifraud/android' [POST]>Traceback (most recent call last):
+  File "/Users/wanghongkui/PycharmProjects/Model_api/antifraud.py", line 212, in get_result_android
+    result = round((1-android_clf.predict_proba(data_final)[0,1])*1000, 0)
+  File "/Users/wanghongkui/.pyenv/versions/env2714/lib/python2.7/site-packages/sklearn/ensemble/gradient_boosting.py", line 1579, in predict_proba
+    score = self.decision_function(X)
+  File "/Users/wanghongkui/.pyenv/versions/env2714/lib/python2.7/site-packages/sklearn/ensemble/gradient_boosting.py", line 1487, in decision_function
+    score = self._decision_function(X)
+  File "/Users/wanghongkui/.pyenv/versions/env2714/lib/python2.7/site-packages/sklearn/ensemble/gradient_boosting.py", line 1130, in _decision_function
+    score = self._init_decision_function(X)
+  File "/Users/wanghongkui/.pyenv/versions/env2714/lib/python2.7/site-packages/sklearn/ensemble/gradient_boosting.py", line 1120, in _init_decision_function
+    X = self.estimators_[0, 0]._validate_X_predict(X, check_input=True)
+  File "/Users/wanghongkui/.pyenv/versions/env2714/lib/python2.7/site-packages/sklearn/tree/tree.py", line 384, in _validate_X_predict
+    % (self.n_features_, n_features))
+ValueError: Number of features of the model must match the input. Model n_features is 20 and input n_features is 17 
+
+2018-01-30 17:36:00,451 - antifraud.py:144 -- receive a  android_antifraudApi  request: <Request 'http://127.0.0.1:5061/model_api/antifraud/android' [POST]>
+2018-01-30 17:36:00,465 - antifraud.py:224 -- <Request 'http://127.0.0.1:5061/model_api/antifraud/android' [POST]>Traceback (most recent call last):
+  File "/Users/wanghongkui/PycharmProjects/Model_api/antifraud.py", line 213, in get_result_android
+    result = round((1-android_clf.predict_proba(data_final)[0,1])*1000, 0)
+  File "/Users/wanghongkui/.pyenv/versions/env2714/lib/python2.7/site-packages/sklearn/ensemble/gradient_boosting.py", line 1579, in predict_proba
+    score = self.decision_function(X)
+  File "/Users/wanghongkui/.pyenv/versions/env2714/lib/python2.7/site-packages/sklearn/ensemble/gradient_boosting.py", line 1487, in decision_function
+    score = self._decision_function(X)
+  File "/Users/wanghongkui/.pyenv/versions/env2714/lib/python2.7/site-packages/sklearn/ensemble/gradient_boosting.py", line 1130, in _decision_function
+    score = self._init_decision_function(X)
+  File "/Users/wanghongkui/.pyenv/versions/env2714/lib/python2.7/site-packages/sklearn/ensemble/gradient_boosting.py", line 1120, in _init_decision_function
+    X = self.estimators_[0, 0]._validate_X_predict(X, check_input=True)
+  File "/Users/wanghongkui/.pyenv/versions/env2714/lib/python2.7/site-packages/sklearn/tree/tree.py", line 384, in _validate_X_predict
+    % (self.n_features_, n_features))
+ValueError: Number of features of the model must match the input. Model n_features is 20 and input n_features is 22 
+
+2018-01-30 17:39:38,125 - antifraud.py:159 -- receive a  android_antifraudApi  request: <Request 'http://127.0.0.1:5061/model_api/antifraud/android' [POST]>
+2018-01-30 17:39:38,137 - antifraud.py:239 -- <Request 'http://127.0.0.1:5061/model_api/antifraud/android' [POST]>Traceback (most recent call last):
+  File "/Users/wanghongkui/PycharmProjects/Model_api/antifraud.py", line 228, in get_result_android
+    result = round((1-android_clf.predict_proba(data_final)[0,1])*1000, 0)
+  File "/Users/wanghongkui/.pyenv/versions/env2714/lib/python2.7/site-packages/sklearn/ensemble/gradient_boosting.py", line 1579, in predict_proba
+    score = self.decision_function(X)
+  File "/Users/wanghongkui/.pyenv/versions/env2714/lib/python2.7/site-packages/sklearn/ensemble/gradient_boosting.py", line 1487, in decision_function
+    score = self._decision_function(X)
+  File "/Users/wanghongkui/.pyenv/versions/env2714/lib/python2.7/site-packages/sklearn/ensemble/gradient_boosting.py", line 1130, in _decision_function
+    score = self._init_decision_function(X)
+  File "/Users/wanghongkui/.pyenv/versions/env2714/lib/python2.7/site-packages/sklearn/ensemble/gradient_boosting.py", line 1120, in _init_decision_function
+    X = self.estimators_[0, 0]._validate_X_predict(X, check_input=True)
+  File "/Users/wanghongkui/.pyenv/versions/env2714/lib/python2.7/site-packages/sklearn/tree/tree.py", line 384, in _validate_X_predict
+    % (self.n_features_, n_features))
+ValueError: Number of features of the model must match the input. Model n_features is 20 and input n_features is 22 
+
+2018-01-30 17:40:21,255 - antifraud.py:159 -- receive a  android_antifraudApi  request: <Request 'http://127.0.0.1:5061/model_api/antifraud/android' [POST]>
+2018-01-31 11:09:15,678 - antifraud.py:74 -- receive a  ios_antifraudApi  request: <Request 'http://127.0.0.1:5061/model_api/antifraud/ios' [POST]>
+2018-01-31 11:12:12,441 - antifraud.py:159 -- receive a  android_antifraudApi  request: <Request 'http://127.0.0.1:5061/model_api/antifraud/android' [POST]>
+2018-01-31 11:12:12,460 - antifraud.py:239 -- <Request 'http://127.0.0.1:5061/model_api/antifraud/android' [POST]>Traceback (most recent call last):
+  File "/Users/wanghongkui/PycharmProjects/Model_api/antifraud.py", line 216, in get_result_android
+    if get_data['contact_early_morning'][0] == -1:
+  File "/Users/wanghongkui/.pyenv/versions/env2714/lib/python2.7/site-packages/pandas/core/frame.py", line 2139, in __getitem__
+    return self._getitem_column(key)
+  File "/Users/wanghongkui/.pyenv/versions/env2714/lib/python2.7/site-packages/pandas/core/frame.py", line 2146, in _getitem_column
+    return self._get_item_cache(key)
+  File "/Users/wanghongkui/.pyenv/versions/env2714/lib/python2.7/site-packages/pandas/core/generic.py", line 1842, in _get_item_cache
+    values = self._data.get(item)
+  File "/Users/wanghongkui/.pyenv/versions/env2714/lib/python2.7/site-packages/pandas/core/internals.py", line 3843, in get
+    loc = self.items.get_loc(item)
+  File "/Users/wanghongkui/.pyenv/versions/env2714/lib/python2.7/site-packages/pandas/core/indexes/base.py", line 2527, in get_loc
+    return self._engine.get_loc(self._maybe_cast_indexer(key))
+  File "pandas/_libs/index.pyx", line 117, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 139, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1265, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1273, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'contact_early_morning'
+
+2018-01-31 11:12:17,901 - antifraud.py:159 -- receive a  android_antifraudApi  request: <Request 'http://127.0.0.1:5061/model_api/antifraud/android' [POST]>
+2018-01-31 11:12:17,906 - antifraud.py:239 -- <Request 'http://127.0.0.1:5061/model_api/antifraud/android' [POST]>Traceback (most recent call last):
+  File "/Users/wanghongkui/PycharmProjects/Model_api/antifraud.py", line 216, in get_result_android
+    if get_data['contact_early_morning'][0] == -1:
+  File "/Users/wanghongkui/.pyenv/versions/env2714/lib/python2.7/site-packages/pandas/core/frame.py", line 2139, in __getitem__
+    return self._getitem_column(key)
+  File "/Users/wanghongkui/.pyenv/versions/env2714/lib/python2.7/site-packages/pandas/core/frame.py", line 2146, in _getitem_column
+    return self._get_item_cache(key)
+  File "/Users/wanghongkui/.pyenv/versions/env2714/lib/python2.7/site-packages/pandas/core/generic.py", line 1842, in _get_item_cache
+    values = self._data.get(item)
+  File "/Users/wanghongkui/.pyenv/versions/env2714/lib/python2.7/site-packages/pandas/core/internals.py", line 3843, in get
+    loc = self.items.get_loc(item)
+  File "/Users/wanghongkui/.pyenv/versions/env2714/lib/python2.7/site-packages/pandas/core/indexes/base.py", line 2527, in get_loc
+    return self._engine.get_loc(self._maybe_cast_indexer(key))
+  File "pandas/_libs/index.pyx", line 117, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 139, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1265, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1273, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'contact_early_morning'
+
+2018-01-31 11:13:50,801 - antifraud.py:159 -- receive a  android_antifraudApi  request: <Request 'http://127.0.0.1:5061/model_api/antifraud/android' [POST]>
+2018-01-31 11:51:55,557 - antifraud.py:159 -- receive a  android_antifraudApi  request: <Request 'http://127.0.0.1:5061/model_api/antifraud/android' [POST]>
