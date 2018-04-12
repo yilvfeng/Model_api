@@ -1,2 +1,6 @@
+##¼¤»îpy2.7 »·¾³
+pyenv activate env2714
+
+##curl
 curl -X POST -d 'input_data={"sUserId":"wanghongkui","cuishou_cnt":1,"tongdun_cnt_apply_3m":1,"zdcy_score":1,"yunfeng_historyloantimes":1,"tongdun_cnt_apply_7day":1,"version_num":"10.1.1",
 "yunfeng_currentoverduetimes":1,"txl_apply_cnt":1,"history_reject_cnt":1,"contact_early_morning":1}' http://127.0.0.1:5061/model_api/xjcard_creditscore/ios
