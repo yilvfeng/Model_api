@@ -62,7 +62,7 @@ def write_log(log_path, result):
 def get_result_ios():
     log_path_exe = mark_path + "/creditscore_v2.log." + time.strftime("%Y-%m-%d", time.localtime())
     current_time = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
-    resp = {"Model_name":"creditscore_v2_ios","sUserId":[],"current_time": current_time,"msg": "ok", "code": 0, "input_data": [],"data_final": [],"reslut_detail":[],"input_reslut_detail":[], "result": 0}
+    resp = {"Model_name":"creditscore_v2_ios","sUserId":[],"current_time": current_time,"msg": "ok", "code": 0, "input_data": [],"data_final": [],"reslut_detail":[], "result": 0}
 
     logger.info(
         'receive a  creditscore_v2_Api  request: {0}'.format(str(request)))
@@ -97,7 +97,6 @@ def get_result_ios():
         result3 = int(ios_clf3.predict_proba(data_final)[:, 0] * 1000)
 
         model_score_threadhold = [784.733, 909.599, 932.26]
-		result_list = [result1,result2,result3]
 
 
         if ((result1 >= model_score_threadhold[0]) & (result2 >= model_score_threadhold[1]) & (
@@ -111,7 +110,6 @@ def get_result_ios():
         resp['data_final'] = data_final.to_json(orient='records')
         resp['result'] = result
         resp['reslut_detail'] = model_score_threadhold
-		resp['input_reslut_detail'] = result_list
         resp['sUserId'] = get_data['sUserId'][0]
         write_log(log_path_exe,json.dumps(resp, ensure_ascii=False))
 
