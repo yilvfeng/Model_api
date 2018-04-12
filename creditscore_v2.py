@@ -58,14 +58,14 @@ def write_log(log_path, result):
 
 
 
-@creditscore_v2Api.route("/model_api/creditscore_v2/ios", methods=["POST"])
+@creditscore_v2_Api.route("/model_api/creditscore_v2/ios", methods=["POST"])
 def get_result_ios():
     log_path_exe = mark_path + "/creditscore_v2.log." + time.strftime("%Y-%m-%d", time.localtime())
     current_time = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
     resp = {"Model_name":"creditscore_v2_ios","sUserId":[],"current_time": current_time,"msg": "ok", "code": 0, "input_data": [],"data_final": [],"reslut_detail":[], "result": 0}
 
     logger.info(
-        'receive a  ios_creditscore_v2Api  request: {0}'.format(str(request)))
+        'receive a  creditscore_v2_Api  request: {0}'.format(str(request)))
     try:
         ####获取数据
 
@@ -123,14 +123,14 @@ def get_result_ios():
 
 
 ######安卓API
-@creditscore_v2_v2Api.route("/model_api/creditscore_v2/android", methods=["POST"])
+@creditscore_v2_Api.route("/model_api/creditscore_v2/android", methods=["POST"])
 def get_result_android():
     log_path_exe = mark_path + "/creditscore_v2.log." + time.strftime("%Y-%m-%d", time.localtime())
     current_time = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
     resp = {"Model_name":"creditscore_v2_android","sUserId":[],"current_time": current_time, "msg": "ok", "code": 0, "input_data": [], "data_final": [], "result": 0}
 
     logger.info(
-        'receive a  android_creditscore_v2Api  request: {0}'.format(str(request)))
+        'receive a  creditscore_v2_Api  request: {0}'.format(str(request)))
     try:
         ####获取数据
 
