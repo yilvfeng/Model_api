@@ -1,0 +1,92 @@
+2018-04-19 16:09:39,540 - creditscore_v2.py:128 -- receive a  creditscore_v2_Api  request: <Request 'http://127.0.0.1:5061/model_api/creditscore_v2/android' [POST]>
+2018-04-19 16:09:39,543 - creditscore_v2.py:171 -- <Request 'http://127.0.0.1:5061/model_api/creditscore_v2/android' [POST]>Traceback (most recent call last):
+  File "/root/liuli/Model_api/creditscore_v2.py", line 147, in get_result_android
+    result1 = int(ios_clf1.predict_proba(data_final)[:, 0] * 1000)
+  File "/root/.pyenv/versions/env2714/lib/python2.7/site-packages/sklearn/linear_model/logistic.py", line 1336, in predict_proba
+    return super(LogisticRegression, self)._predict_proba_lr(X)
+  File "/root/.pyenv/versions/env2714/lib/python2.7/site-packages/sklearn/linear_model/base.py", line 338, in _predict_proba_lr
+    prob = self.decision_function(X)
+  File "/root/.pyenv/versions/env2714/lib/python2.7/site-packages/sklearn/linear_model/base.py", line 305, in decision_function
+    % (X.shape[1], n_features))
+ValueError: X has 8 features per sample; expecting 9
+
+2018-04-19 16:12:51,331 - creditscore_v2.py:128 -- receive a  creditscore_v2_Api  request: <Request 'http://127.0.0.1:5061/model_api/creditscore_v2/android' [POST]>
+2018-04-19 16:12:51,338 - creditscore_v2.py:171 -- <Request 'http://127.0.0.1:5061/model_api/creditscore_v2/android' [POST]>Traceback (most recent call last):
+  File "/root/liuli/Model_api/creditscore_v2.py", line 164, in get_result_android
+    resp['sUserId'] = get_data['sUserId'][0]
+  File "/root/.pyenv/versions/env2714/lib/python2.7/site-packages/pandas/core/frame.py", line 2139, in __getitem__
+    return self._getitem_column(key)
+  File "/root/.pyenv/versions/env2714/lib/python2.7/site-packages/pandas/core/frame.py", line 2146, in _getitem_column
+    return self._get_item_cache(key)
+  File "/root/.pyenv/versions/env2714/lib/python2.7/site-packages/pandas/core/generic.py", line 1842, in _get_item_cache
+    values = self._data.get(item)
+  File "/root/.pyenv/versions/env2714/lib/python2.7/site-packages/pandas/core/internals.py", line 3843, in get
+    loc = self.items.get_loc(item)
+  File "/root/.pyenv/versions/env2714/lib/python2.7/site-packages/pandas/core/indexes/base.py", line 2527, in get_loc
+    return self._engine.get_loc(self._maybe_cast_indexer(key))
+  File "pandas/_libs/index.pyx", line 117, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 139, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1265, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1273, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'sUserId'
+
+2018-04-19 16:13:19,342 - creditscore_v2.py:128 -- receive a  creditscore_v2_Api  request: <Request 'http://127.0.0.1:5061/model_api/creditscore_v2/android' [POST]>
+2018-04-19 16:13:19,345 - creditscore_v2.py:171 -- <Request 'http://127.0.0.1:5061/model_api/creditscore_v2/android' [POST]>Traceback (most recent call last):
+  File "/root/liuli/Model_api/creditscore_v2.py", line 164, in get_result_android
+    resp['sUserId'] = get_data['sUserId'][0]
+  File "/root/.pyenv/versions/env2714/lib/python2.7/site-packages/pandas/core/frame.py", line 2139, in __getitem__
+    return self._getitem_column(key)
+  File "/root/.pyenv/versions/env2714/lib/python2.7/site-packages/pandas/core/frame.py", line 2146, in _getitem_column
+    return self._get_item_cache(key)
+  File "/root/.pyenv/versions/env2714/lib/python2.7/site-packages/pandas/core/generic.py", line 1842, in _get_item_cache
+    values = self._data.get(item)
+  File "/root/.pyenv/versions/env2714/lib/python2.7/site-packages/pandas/core/internals.py", line 3843, in get
+    loc = self.items.get_loc(item)
+  File "/root/.pyenv/versions/env2714/lib/python2.7/site-packages/pandas/core/indexes/base.py", line 2527, in get_loc
+    return self._engine.get_loc(self._maybe_cast_indexer(key))
+  File "pandas/_libs/index.pyx", line 117, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 139, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1265, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1273, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'sUserId'
+
+2018-04-19 16:13:56,743 - creditscore_v2.py:128 -- receive a  creditscore_v2_Api  request: <Request 'http://127.0.0.1:5061/model_api/creditscore_v2/android' [POST]>
+2018-04-19 16:28:05,095 - creditscore_v2.py:128 -- receive a  creditscore_v2_Api  request: <Request 'http://127.0.0.1:5061/model_api/creditscore_v2/android' [POST]>
+2018-04-19 16:41:53,904 - creditscore_v2.py:68 -- receive a  creditscore_v2_Api  request: <Request 'http://127.0.0.1:5061/model_api/creditscore_v2/ios' [POST]>
+2018-04-19 16:41:53,905 - creditscore_v2.py:115 -- <Request 'http://127.0.0.1:5061/model_api/creditscore_v2/ios' [POST]>Traceback (most recent call last):
+  File "/root/liuli/Model_api/creditscore_v2.py", line 74, in get_result_ios
+    input_data = eval(input_data)
+  File "<string>", line 2
+    "num_credit_cards":2,"tongdun_cnt_apply_3m":23}
+                     ^
+SyntaxError: invalid syntax
+
+2018-04-19 16:42:31,520 - creditscore_v2.py:68 -- receive a  creditscore_v2_Api  request: <Request 'http://127.0.0.1:5061/model_api/creditscore_v2/ios' [POST]>
+2018-04-19 16:42:31,520 - creditscore_v2.py:115 -- <Request 'http://127.0.0.1:5061/model_api/creditscore_v2/ios' [POST]>Traceback (most recent call last):
+  File "/root/liuli/Model_api/creditscore_v2.py", line 74, in get_result_ios
+    input_data = eval(input_data)
+  File "<string>", line 1
+    {"sUserId":"1245b82792da4270b9b8bea3c4a144cd","yunfeng_currentdueamount":-1,"yunfeng_historyoverduetimes":-1,"zdcy_score":59,"yunfeng_historyloantimes":-1,"version_num":11.0.1,"baidu_risk_score":0,"phone_apply_fail_cnt":0
+                                                                                                                                                                                  ^
+SyntaxError: invalid syntax
+
+2018-04-19 16:42:48,806 - creditscore_v2.py:68 -- receive a  creditscore_v2_Api  request: <Request 'http://127.0.0.1:5061/model_api/creditscore_v2/ios' [POST]>
+2018-04-19 16:42:48,807 - creditscore_v2.py:115 -- <Request 'http://127.0.0.1:5061/model_api/creditscore_v2/ios' [POST]>Traceback (most recent call last):
+  File "/root/liuli/Model_api/creditscore_v2.py", line 74, in get_result_ios
+    input_data = eval(input_data)
+  File "<string>", line 1
+    {"sUserId":"1245b82792da4270b9b8bea3c4a144cd","yunfeng_currentdueamount":-1,"yunfeng_historyoverduetimes":-1,"zdcy_score":59,"yunfeng_historyloantimes":-1,"version_num":11.0.1,"baidu_risk_score":0,"phone_apply_fail_cnt":0"num_credit_cards":2,"tongdun_cnt_apply_3m":23}
+                                                                                                                                                                                  ^
+SyntaxError: invalid syntax
+
+2018-04-19 16:43:54,140 - creditscore_v2.py:68 -- receive a  creditscore_v2_Api  request: <Request 'http://127.0.0.1:5061/model_api/creditscore_v2/ios' [POST]>
+2018-04-19 16:43:54,140 - creditscore_v2.py:115 -- <Request 'http://127.0.0.1:5061/model_api/creditscore_v2/ios' [POST]>Traceback (most recent call last):
+  File "/root/liuli/Model_api/creditscore_v2.py", line 74, in get_result_ios
+    input_data = eval(input_data)
+  File "<string>", line 2
+    "yunfeng_historyloantimes":-1,"version_num":"10.1.1","baidu_risk_score":0,"phone_apply_fail_cnt":0"num_credit_cards":2,"tongdun_cnt_apply_3m":23}
+                                                                                                                       ^
+SyntaxError: invalid syntax
+
+2018-04-19 16:47:30,680 - creditscore_v2.py:128 -- receive a  creditscore_v2_Api  request: <Request 'http://127.0.0.1:5061/model_api/creditscore_v2/android' [POST]>
+2018-04-19 16:49:01,826 - creditscore_v2.py:68 -- receive a  creditscore_v2_Api  request: <Request 'http://127.0.0.1:5061/model_api/creditscore_v2/ios' [POST]>

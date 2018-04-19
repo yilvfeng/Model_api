@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+﻿# -*- coding: utf-8 -*-
 import json
 import time
 import sys
@@ -144,9 +144,9 @@ def get_result_android():
 
         #####加载模型预测
 
-        result1 = int(ios_clf1.predict_proba(data_final)[:, 0] * 1000)
-        result2 = int(ios_clf2.predict_proba(data_final)[:, 0] * 1000)
-        result3 = int(ios_clf3.predict_proba(data_final)[:, 0] * 1000)
+        result1 = int(round((android_clf1.predict_proba(data_final)[:, 0] * 1000), 0))
+        result2 = int(round((android_clf2.predict_proba(data_final)[:, 0] * 1000), 0))
+        result3 = int(round((android_clf3.predict_proba(data_final)[:, 0] * 1000), 0))
 
         model_score_threadhold = [695.514, 837.53, 868.789]
 
