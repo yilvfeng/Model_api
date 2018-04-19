@@ -77,11 +77,6 @@ def get_result_ios():
         get_data = pd.DataFrame(input_data, index=[0])
 
         ###数据处理
-        if get_data['version_num'][0].split('.')[0] == '10':
-            get_data['is_ios_10'] = 1
-        else:
-            get_data['is_ios_10'] = 0
-
         if get_data['version_num'][0].split('.')[0] == '11':
             get_data['is_ios_11'] = 1
         else:
@@ -92,9 +87,9 @@ def get_result_ios():
 
         #####加载模型预测
 
-        result1 = int(ios_clf1.predict_proba(data_final)[:, 0] * 1000)
-        result2 = int(ios_clf2.predict_proba(data_final)[:, 0] * 1000)
-        result3 = int(ios_clf3.predict_proba(data_final)[:, 0] * 1000)
+        result1 = int(round((ios_clf1.predict_proba(data_final)[:, 0] * 1000), 0))
+        result2 = int(round((ios_clf2.predict_proba(data_final)[:, 0] * 1000), 0))
+        result3 = int(round((ios_clf3.predict_proba(data_final)[:, 0] * 1000), 0))
 
         model_score_threadhold = [784.733, 909.599, 932.26]
 
@@ -142,10 +137,7 @@ def get_result_android():
         get_data = pd.DataFrame(input_data, index = [0])
 
         ###数据处理
-        if get_data['version_num'][0].split('.')[0] == '7':
-            get_data['is_android_7'] = 1
-        else:
-            get_data['is_android_7'] = 0
+
         #####选取入模型的指标
 
         data_final = get_data[android_columns]
